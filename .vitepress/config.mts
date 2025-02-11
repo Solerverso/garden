@@ -5,6 +5,7 @@ export default defineConfig({
   title: "Solerverso",
   description: "Hello",
   themeConfig: {
+  appearance: 'dark'
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },

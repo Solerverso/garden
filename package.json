@@ -3,7 +3,8 @@
     "@nolebase/markdown-it-bi-directional-links": "^2.13.2",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.13.2",
     "@nolebase/vitepress-plugin-sidebar": "^2.13.2",
-    "vitepress": "^1.6.3"
+    "vitepress": "^1.6.3",
+    "vitepress-sidebar": "^1.31.0"
   },
   "scripts": {
     "docs:dev": "vitepress dev",

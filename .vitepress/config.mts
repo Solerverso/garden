@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
-  base: '/'
+  base: '/',
   title: "Solerverso",
   description: "Hello",
   themeConfig: {

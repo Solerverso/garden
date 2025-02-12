@@ -26,6 +26,10 @@ export default defineConfig({
   description: "Hello",
 ignoreDeadLinks: true,
   themeConfig: {
+    docFooter: {
+      next: false,
+      prev: false,
+    },
   appearance: 'dark',
     // https://vitepress.dev/reference/default-theme-config
     nav: [

@@ -27,7 +27,7 @@ export default defineConfig({
         text: 'Literatura',
         collapsed: true,
         items: [
-          { text: 'Item C', link: 'literatura/cela' },
+          { text: 'A Cela', link: 'literatura/cela' },
         ]
       }
     ],

@@ -6,6 +6,7 @@ export default defineConfig({
   base: '/',
   title: "Solerverso",
   description: "Hello",
+ignoreDeadLinks: true,
   themeConfig: {
   appearance: 'dark',
     // https://vitepress.dev/reference/default-theme-config

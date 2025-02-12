@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress';
-import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
+import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
+import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 
 
@@ -36,14 +37,15 @@ ignoreDeadLinks: true,
       }
     ],
 
+    sidebar: calculateSidebar([ 
+      'Notes', 
+      { folderName: 'Articles', separate: true }, 
+    ]),
+
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  },
-  markdown: {
-    config: (md) => {
-      md.use(BiDirectionalLinks()) 
-    },
+  }
   },
 })

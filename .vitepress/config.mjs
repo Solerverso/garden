@@ -60,9 +60,9 @@ markdown: {
 const vitePressSidebarOptions = {
   // VitePress Sidebar's options here...
   documentRootPath: '/',
-  collapsed: false,
+  collapsed: true,
   capitalizeFirst: true
-}
+};
 
 
 

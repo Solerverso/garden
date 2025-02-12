@@ -66,7 +66,7 @@ export default vitePressSidebarOptions = {
   documentRootPath: '/',
   collapsed: false,
   capitalizeFirst: true
-};
+}
 
 })
 

@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress';
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
-import { calculateSidebar as originalCalculateSidebar } from "@nolebase/vitepress-plugin-sidebar"
+import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 function calculateSidebarWithDefaultOpen(targets, base) { 
   const result = originalCalculateSidebar(targets, base) 

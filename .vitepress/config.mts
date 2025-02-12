@@ -5,6 +5,22 @@ import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
+  vite: { 
+    optimizeDeps: { 
+      exclude: [ 
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client', 
+        'vitepress', 
+        '@nolebase/ui', 
+      ], 
+    }, 
+    ssr: { 
+      noExternal: [ 
+        // If there are other packages that need to be processed by Vite, you can add them here. //
+        '@nolebase/vitepress-plugin-enhanced-readabilities', 
+        '@nolebase/ui', 
+      ], 
+    }, 
+  }, 
   base: '/',
   title: "Solerverso",
   description: "Hello",

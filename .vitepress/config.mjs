@@ -57,7 +57,7 @@ markdown: {
     config: (md) => {
       md.use(BiDirectionalLinks()) 
     },
-  },
+  }
 
 export default vitePressSidebarOptions = {
   // VitePress Sidebar's options here...
@@ -65,7 +65,7 @@ export default vitePressSidebarOptions = {
   collapsed: false,
   capitalizeFirst: true
 }
-  
+ 
 export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions)),
   
 })

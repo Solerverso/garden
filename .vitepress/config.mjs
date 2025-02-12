@@ -44,7 +44,9 @@ ignoreDeadLinks: true,
     ],
 
     sidebar: generateSidebar({
-      // VitePress Sidebar's options here...
+       documentRootPath: '/',
+        collapsed: true,
+        capitalizeFirst: true
     }),
 
     socialLinks: [

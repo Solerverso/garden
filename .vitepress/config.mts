@@ -20,7 +20,7 @@ export default defineConfig({
         text: 'Sobre',
         items: [
           { text: 'Sobre', link: 'sobre/sobre' },
-          { text: 'Item B', link: '/item-b' },
+          { text: 'Biblioteca', link: '/biblioteca' },
         ]
       },
       {

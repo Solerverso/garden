@@ -27,9 +27,10 @@ const getSidebarPartial = ({
 };
 
 export const sidebar = [
-  { text: "sobre", link: "/" },
+  { text: "whoami", link: "/" },
   ...getSidebarPartial({
-    path: "sobre",
+    path: "about",
+    collapsed: true,
   }),
   ...getSidebarPartial({
     path: "experiments",
@@ -48,3 +49,5 @@ export const sidebar = [
     collapsed: true,
   }),
 ];
+
+console.log(sidebar);

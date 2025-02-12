@@ -59,7 +59,7 @@ markdown: {
   },
 
 export: defineConfig(
-  withSidebar(vitePressConfigs, {
+  generateSidebar(vitePressConfigs, {
     /*
      * For detailed instructions, see the links below:
      * https://vitepress-sidebar.cdget.com/guide/options

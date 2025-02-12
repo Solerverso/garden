@@ -42,10 +42,7 @@ ignoreDeadLinks: true,
     sidebar: calculateSidebarWithDefaultOpen([ 
       { folderName: "literatura", separate: true },
       { folderName: "sobre", separate: true },
-      //...
-    ],''), //The base parameter should be set according to your specific configuration //
-    //...
-  }
+    ],
 
 
     socialLinks: [

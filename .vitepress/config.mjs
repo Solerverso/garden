@@ -58,7 +58,7 @@ markdown: {
     },
   },
 
-  const vitePressSidebarOptions = {
+  export vitePressSidebarOptions = {
   // VitePress Sidebar's options here...
   documentRootPath: '/',
   collapsed: false,

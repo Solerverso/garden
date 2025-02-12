@@ -33,4 +33,9 @@ ignoreDeadLinks: true,
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   }
+markdown: {
+    config: (md) => {
+      md.use(BiDirectionalLinks()) 
+    },
+  },
 })

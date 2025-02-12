@@ -16,7 +16,7 @@ ignoreDeadLinks: true,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Biblioteca', link: '/biblioteca' },
       { text: 'Teste', link: '/markdown-examples' }
     ],
 

@@ -63,7 +63,7 @@ markdown: {
   documentRootPath: '/',
   collapsed: false,
   capitalizeFirst: true
-};
+}
 
 })
 

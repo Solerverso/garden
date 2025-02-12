@@ -40,8 +40,8 @@ ignoreDeadLinks: true,
 
 
     sidebar: calculateSidebarWithDefaultOpen([ 
-      { folderName: "literatura", separate: true },
-      { folderName: "sobre", separate: true },
+      'literatura',
+      'notas',
      ],''),
 
 

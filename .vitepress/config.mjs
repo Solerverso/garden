@@ -58,6 +58,12 @@ markdown: {
     },
   },
 
+  const vitePressSidebarOptions = {
+  // VitePress Sidebar's options here...
+  documentRootPath: '/',
+  collapsed: false,
+  capitalizeFirst: true
+};
 
 })
 

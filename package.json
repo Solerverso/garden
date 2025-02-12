@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@nolebase/markdown-it-bi-directional-links": "^2.13.2",
     "vitepress": "^1.6.3"
   },
   "scripts": {

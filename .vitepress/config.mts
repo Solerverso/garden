@@ -16,17 +16,11 @@ export default defineConfig({
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-     sidebar: [
-        '/',
-        {
-            title: 'Guide',
-            collapsable: false,
-            children: [ 
-            ['/guide/Frontend','Frontend'],
-            ['/guide/Backend' , 'Backend' ]
-]
-        },
-    ],
+ sidebar: { 
+   '/guide/': getGuideSidebar(), 
+   '/config/': getConfigSidebar(), 
+   '/': getGuideSidebar() 
+ } 
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

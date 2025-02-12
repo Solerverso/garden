@@ -1,15 +1,35 @@
 import { defineConfig } from 'vitepress';
+import { sidebar } from "./plugins/sidebar";
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
+  vite: { 
+    optimizeDeps: { 
+      exclude: [ 
+        '@nolebase/vitepress-plugin-enhanced-readabilities/client', 
+        'vitepress', 
+        '@nolebase/ui', 
+      ], 
+    }, 
+    ssr: { 
+      noExternal: [ 
+        // If there are other packages that need to be processed by Vite, you can add them here. //
+        '@nolebase/vitepress-plugin-enhanced-readabilities', 
+        '@nolebase/ui', 
+      ], 
+    }, 
+  }, 
   base: '/',
   title: "Solerverso",
   description: "Hello",
 ignoreDeadLinks: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     docFooter: {
       next: false,
       prev: false,
@@ -23,10 +43,7 @@ ignoreDeadLinks: true,
     ],
 
 
-    sidebar: calculateSidebar([ 
-      'sobre', 
-      'literatura',
-    ]),
+sidebar,
 
 
     socialLinks: [

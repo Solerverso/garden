@@ -16,3 +16,4 @@ Uma lista das últimas leituras feitas por mim
 - O Macaco Nu (Desmond Morris)
 - O Sagrado e o Profano (Mircea Eliade)
 - Cinquenta Tons de Racismo (Janaína Bastos)
+- [[devenire]]

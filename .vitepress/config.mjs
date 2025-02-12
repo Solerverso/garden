@@ -63,7 +63,9 @@ markdown: {
   documentRootPath: '/',
   collapsed: false,
   capitalizeFirst: true
-}
+},
+
+export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
 
 })
 

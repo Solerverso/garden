@@ -58,7 +58,7 @@ markdown: {
     },
   },
 
-export default defineConfig(
+export: defineConfig(
   withSidebar(vitePressConfigs, {
     /*
      * For detailed instructions, see the links below:

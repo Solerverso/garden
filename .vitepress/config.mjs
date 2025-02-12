@@ -7,7 +7,7 @@ import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
-  withSidebar(vitePressOptions, vitePressSidebarOptions),
+  withSidebar(vitePressOptions, vitePressSidebarOptions){},
   vite: { 
     optimizeDeps: { 
       exclude: [ 

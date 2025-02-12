@@ -56,13 +56,6 @@ markdown: {
     },
   },
 
-const vitePressSidebarOptions = {
-  // VitePress Sidebar's options here...
-  documentRootPath: '/',
-  collapsed: false,
-  capitalizeFirst: true
-};
-
 export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
 
 

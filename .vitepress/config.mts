@@ -1,6 +1,6 @@
 import { defineConfig } from 'vitepress';
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
-import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
+import { calculateSidebar as originalCalculateSidebar } from "@nolebase/vitepress-plugin-sidebar"
 
 function calculateSidebarWithDefaultOpen(targets, base) { 
   const result = originalCalculateSidebar(targets, base) 
@@ -35,10 +35,13 @@ ignoreDeadLinks: true,
     ],
 
 
-    sidebar: calculateSidebar([ 
-      'sobre', 
-      'literatura',
-    ]),
+    sidebar: calculateSidebarWithDefaultOpen([ 
+      { folderName: "literatura", separate: true },
+      { folderName: "sobre", separate: true },
+      //...
+    ],''), //The base parameter should be set according to your specific configuration //
+    //...
+  }
 
 
     socialLinks: [

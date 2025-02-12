@@ -1,5 +1,20 @@
 import { defineConfig } from 'vitepress';
 
+const wikilinks = require('vuepress-markdown-it-wikilink')({
+  // ... options here ...
+})
+
+module.exports = {
+  // ...
+  markdown: {
+    extendMarkdown: (md) => {
+      md.use(wikilinks)
+    },
+  },
+  // ...
+}
+
+
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
@@ -37,20 +52,5 @@ ignoreDeadLinks: true,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  },
-
-const wikilinks = require('vuepress-markdown-it-wikilink')({
-  // ... options here ...
-})
-
-module.exports = {
-  // ...
-  markdown: {
-    extendMarkdown: (md) => {
-      md.use(wikilinks)
-    },
-  },
-  // ...
-}
-
+  }
 })

@@ -16,22 +16,7 @@ export default defineConfig({
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Sobre',
-        items: [
-          { text: 'Sobre', link: 'sobre/sobre' },
-          { text: 'Item B', link: '/item-b' },
-        ]
-      },
-      {
-        text: 'Section Title B',
-        items: [
-          { text: 'Item C', link: '/item-c' },
-          { text: 'Item D', link: '/item-d' },
-        ]
-      }
-    ],
+sidebar,
 
 
     socialLinks: [

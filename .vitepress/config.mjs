@@ -64,8 +64,9 @@ markdown: {
   collapsed: false,
   capitalizeFirst: true
 },
+  
 
-export: default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
+export: defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
 
 })
 

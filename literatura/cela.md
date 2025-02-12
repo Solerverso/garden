@@ -1,3 +1,5 @@
+# A Cela
+
 A escuridão semi-absoluta inundava o lúgubre corredor que, sabe-se lá como, eu havia adentrado. Ao meu redor tudo aparentava estar tomado por uma densa e obscurecida manta, parcialmente interrompida apenas pela fraca e oscilante luz que revelava um pequeno cômodo em minha frente, mas pouco podia enxergar de seu caliginoso interior, separado de mim por uma grade metálica de extensão que sumia naquele breu.
 
 Um ímpeto de curiosidade fez com que me aproximasse das grades, com intenção de identificar o que havia em seu íntimo. Com certo esforço, e me aproveitando dos momentos de maior intensidade da luz, pude ver cada vez mais o âmago daquela sombria cela sem janelas, até perceber que ali dentro havia alguém que, agachado e de costas para mim, encarava compenetradamente a parede oposta.

@@ -24,8 +24,8 @@ ignoreDeadLinks: true,
 
 
     sidebar: calculateSidebar([ 
-      'sobre', 
-      'literatura',
+      'Sobre', 
+      'Literatura',
     ]),
 
 

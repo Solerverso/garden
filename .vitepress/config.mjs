@@ -56,7 +56,73 @@ markdown: {
     config: (md) => {
       md.use(BiDirectionalLinks()) 
     },
-  }
+  },
+
+export default defineConfig(
+  withSidebar(vitePressConfigs, {
+    /*
+     * For detailed instructions, see the links below:
+     * https://vitepress-sidebar.cdget.com/guide/options
+     */
+    //
+    // ============ [ RESOLVING PATHS ] ============
+    // documentRootPath: '/',
+    // scanStartPath: null,
+    // resolvePath: null,
+    // basePath: null,
+    //
+    // ============ [ GROUPING ] ============
+    // collapsed: true,
+     collapseDepth: 1,
+    // rootGroupText: 'Contents',
+    // rootGroupLink: 'https://github.com/jooy2',
+    // rootGroupCollapsed: false,
+    //
+    // ============ [ GETTING MENU TITLE ] ============
+    // useTitleFromFileHeading: true,
+    // useTitleFromFrontmatter: true,
+    // useFolderLinkFromIndexFile: false,
+    // useFolderTitleFromIndexFile: false,
+    // frontmatterTitleFieldName: 'title',
+    //
+    // ============ [ GETTING MENU LINK ] ============
+    // useFolderLinkFromSameNameSubFile: false,
+    // useFolderLinkFromIndexFile: false,
+    // folderLinkNotIncludesFileName: false,
+    //
+    // ============ [ INCLUDE / EXCLUDE ] ============
+    // excludePattern: ['README.md', 'folder/'],
+    // excludeFilesByFrontmatterFieldName: 'exclude',
+    // includeDotFiles: false,
+    // includeEmptyFolder: false,
+    // includeRootIndexFile: false,
+    // includeFolderIndexFile: false,
+    //
+    // ============ [ STYLING MENU TITLE ] ============
+    // hyphenToSpace: true,
+    // underscoreToSpace: true,
+    // capitalizeFirst: false,
+    // capitalizeEachWords: false,
+    // keepMarkdownSyntaxFromTitle: false,
+    // removePrefixAfterOrdering: false,
+    // prefixSeparator: '.',
+    //
+    // ============ [ SORTING ] ============
+    // manualSortFileNameByPriority: ['first.md', 'second', 'third.md'],
+    // sortFolderTo: null,
+    // sortMenusByName: false,
+    // sortMenusByFileDatePrefix: false,
+    // sortMenusByFrontmatterOrder: false,
+    // frontmatterOrderDefaultValue: 0,
+    // sortMenusByFrontmatterDate: false,
+    // sortMenusOrderByDescending: false,
+    // sortMenusOrderNumericallyFromTitle: false,
+    // sortMenusOrderNumericallyFromLink: false,
+    //
+    // ============ [ MISC ] ============
+    // debugPrint: false,
+  })
+)
 
 })
 

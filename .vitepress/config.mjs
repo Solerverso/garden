@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress';
+import { generateSidebar } from 'vitepress-sidebar';
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
+
 
 // https://vitepress.dev/reference/site-config
 
@@ -41,12 +43,10 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-
-    sidebar: calculateSidebar([ 
-      'sobre', 
-      'literatura',
-    ]),
-
+    sidebar: generateSidebar({
+      // VitePress Sidebar's options here...
+    }),
+      
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
@@ -56,17 +56,7 @@ markdown: {
     config: (md) => {
       md.use(BiDirectionalLinks()) 
     },
-  },
-
-  const: vitePressSidebarOptions = {
-  // VitePress Sidebar's options here...
-  documentRootPath: '/',
-  collapsed: false,
-  capitalizeFirst: true
-},
-  
-
-export: defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions))
+  }
 
 })
 

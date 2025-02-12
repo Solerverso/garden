@@ -18,9 +18,9 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Section Title A',
+        text: 'Sobre',
         items: [
-          { text: 'Item A', link: '/item-a' },
+          { text: 'Sobre', link: 'sobre/sobre' },
           { text: 'Item B', link: '/item-b' },
         ]
       },

@@ -2,11 +2,8 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 
-export default {
-  base: '/garden/'
-}
-
 export default defineConfig({
+  base: '/garden/'
   title: "Solerverso",
   description: "Hello",
   themeConfig: {

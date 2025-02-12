@@ -26,6 +26,9 @@ export default defineConfig({
   description: "Hello",
 ignoreDeadLinks: true,
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     docFooter: {
       next: false,
       prev: false,

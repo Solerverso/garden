@@ -27,9 +27,9 @@ const getSidebarPartial = ({
 };
 
 export const sidebar = [
-  { text: "whoami", link: "/" },
+  { text: "sobre", link: "/" },
   ...getSidebarPartial({
-    path: "about",
+    path: "sobre",
   }),
   ...getSidebarPartial({
     path: "experiments",

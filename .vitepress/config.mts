@@ -38,8 +38,8 @@ ignoreDeadLinks: true,
     ],
 
     sidebar: calculateSidebar([ 
-      'Notes', 
-      { folderName: 'Articles', separate: true }, 
+      'Literatura', 
+      { folderName: 'literatura', separate: true }, 
     ]),
 
 

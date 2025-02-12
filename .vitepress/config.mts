@@ -22,7 +22,7 @@ ignoreDeadLinks: true,
 
 
     sidebar: calculateSidebar([ 
-      'sobre', 
+      { folderName: 'sobre', separate: true }, 
       { folderName: 'literatura', separate: true }, 
     ]),
 

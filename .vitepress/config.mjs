@@ -61,7 +61,9 @@ const vitePressSidebarOptions = {
   collapsed: false,
   capitalizeFirst: true
 }
-  
+
+export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
+
 
 
  

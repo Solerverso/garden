@@ -45,7 +45,7 @@ ignoreDeadLinks: true,
 
     sidebar: generateSidebar({
       // VitePress Sidebar's options here...
-    })
+    }),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

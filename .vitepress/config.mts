@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-
+import { withSidebar } from 'vitepress-sidebar';
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
@@ -55,4 +55,16 @@ markdown: {
       md.use(BiDirectionalLinks()) 
     },
   },
+
+const vitePressSidebarOptions = {
+  // VitePress Sidebar's options here...
+  documentRootPath: '/',
+  collapsed: false,
+  capitalizeFirst: true
+};
+
+export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));
+
+
 })
+

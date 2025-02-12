@@ -43,7 +43,10 @@ ignoreDeadLinks: true,
     ],
 
 
-sidebar,
+    sidebar: calculateSidebar([ 
+      'sobre', 
+      'literatura',
+    ]),
 
 
     socialLinks: [

@@ -59,7 +59,7 @@ markdown: {
     },
   }})
 
-export default vitePressSidebarOptions = {
+export vitePressSidebarOptions = {
   // VitePress Sidebar's options here...
   documentRootPath: '/',
   collapsed: false,

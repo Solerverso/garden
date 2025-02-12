@@ -1,18 +1,6 @@
 import { defineConfig } from 'vitepress';
+import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links'
 
-const wikilinks = require('vuepress-markdown-it-wikilink')({
-  // ... options here ...
-})
-
-module.exports = {
-  // ...
-  markdown: {
-    extendMarkdown: (md) => {
-      md.use(wikilinks)
-    },
-  },
-  // ...
-}
 
 
 // https://vitepress.dev/reference/site-config
@@ -52,5 +40,10 @@ ignoreDeadLinks: true,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+  markdown: {
+    config: (md) => {
+      md.use(BiDirectionalLinks()) 
+    },
+  },
 })

@@ -1,4 +1,4 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 import { sidebar } from "./plugins/sidebar";
 
 // https://vitepress.dev/reference/site-config

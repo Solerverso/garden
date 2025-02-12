@@ -37,5 +37,18 @@ ignoreDeadLinks: true,
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
-  }
+  },
+const wikilinks = require('vuepress-markdown-it-wikilink')({
+  // ... options here ...
+})
+
+module.exports = {
+  // ...
+  markdown: {
+    extendMarkdown: (md) => {
+      md.use(wikilinks)
+    },
+  },
+  // ...
+}
 })

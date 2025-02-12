@@ -58,14 +58,15 @@ markdown: {
       md.use(BiDirectionalLinks()) 
     },
   }
-  
-})
 
-export vitePressSidebarOptions = {
+export default vitePressSidebarOptions = {
   // VitePress Sidebar's options here...
   documentRootPath: '/',
   collapsed: false,
   capitalizeFirst: true
 }
+  
+})
+
+
  
-export defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));

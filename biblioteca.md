@@ -7,7 +7,7 @@ sidebar: true
 Uma lista das últimas leituras feitas por mim
 
 ## 2024
-- [[Como o futebol explica o mundo]] (Franklin Foer)
+- [Como o futebol explica o mundo](como-o-futebol-explica-o-mundo) (Franklin Foer)
 - Aladim
 - Cérebro: uma biografia (David Eagleman)
 - Human Evolution (Robin Dunbar)

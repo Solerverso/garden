@@ -43,10 +43,6 @@ ignoreDeadLinks: true,
       { text: 'Biblioteca', link: '/biblioteca' },
       { text: 'Teste', link: '/markdown-examples' }
     ],
-
-    sidebar: generateSidebar({
-      // VitePress Sidebar's options here...
-    }),
       
 
     socialLinks: [

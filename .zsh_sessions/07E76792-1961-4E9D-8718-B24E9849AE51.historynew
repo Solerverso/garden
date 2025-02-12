@@ -1,0 +1,14 @@
+cd solerverso.github.io
+pnpm install
+brew install pnpm\
+\
+
+cd
+brew install pnpm\
+\
+
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install pnpm\
+\
+
+brew help

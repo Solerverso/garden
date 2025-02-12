@@ -68,4 +68,4 @@ export default vitePressSidebarOptions = {
   capitalizeFirst: true
 }
  
-export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions)),
+export default defineConfig(withSidebar(vitePressOptions, vitePressSidebarOptions));

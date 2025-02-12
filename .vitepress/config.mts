@@ -20,25 +20,9 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar: [
-      {
-        text: 'Sobre',
-        items: [
-          { text: 'Sobre', link: 'sobre/sobre' },
-          { text: 'Biblioteca', link: '/biblioteca' },
-        ]
-      },
-      {
-        text: 'Literatura',
-        collapsed: true,
-        items: [
-          { text: 'A Cela', link: 'literatura/cela' },
-        ]
-      }
-    ],
 
     sidebar: calculateSidebar([ 
-      'Literatura', 
+      'sobre', 
       { folderName: 'literatura', separate: true }, 
     ]),
 

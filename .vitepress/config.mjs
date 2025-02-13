@@ -45,7 +45,6 @@ ignoreDeadLinks: true,
 
     sidebar: generateSidebar([
       {
-       documentRootPath: '/',
         scanStartPath: 'base',
         basePath: '/base/',
       resolvePath: '/base/',

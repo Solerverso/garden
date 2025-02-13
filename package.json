@@ -12,6 +12,7 @@
     "docs:preview": "vitepress preview"
   },
   "dependencies": {
+    "vitepress-plugin-image-viewer": "^1.1.6",
     "vuepress-markdown-it-wikilink": "^1.0.1"
   }
 }

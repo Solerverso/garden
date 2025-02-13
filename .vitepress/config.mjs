@@ -5,7 +5,7 @@ import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 
-export default defineConfig(withSidebar(vitePressConfigs, [{
+export defineConfig(withSidebar(vitePressConfigs, [{
   documentRootPath: "/docs",
   scanStartPath: "notes",
   resolvePath: "/notes/",
@@ -86,7 +86,6 @@ ignoreDeadLinks: true,
       useFolderLinkFromSameNameSubFile: true,
         collapseDepth: 1,
         collapsed: true,
-        collapseDepth: 1,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
     }),

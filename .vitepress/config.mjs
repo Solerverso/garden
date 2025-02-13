@@ -1,18 +1,11 @@
+
 import { defineConfig } from 'vitepress';
 import { withSidebar } from "vitepress-sidebar";
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
-const vitePressOptions = {};
 
-const vitePressSidebarOptions = {
-  documentRootPath: '/'
-};
-
-// https://vitepress.dev/reference/site-config
-
-export default defineConfig({
-(withSidebar(vitePressConfigs, [{
+export default defineConfig(withSidebar(vitePressConfigs, [{
   documentRootPath: "/docs",
   scanStartPath: "notes",
   resolvePath: "/notes/",
@@ -37,7 +30,9 @@ export default defineConfig({
   useFolderTitleFromIndexFile: true,
 }]))
 
-  
+// https://vitepress.dev/reference/site-config
+
+export default defineConfig({
 logo: '/logo.svg',
   locales: {
     root: {
@@ -80,11 +75,12 @@ ignoreDeadLinks: true,
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Sobre', link: '/sobre/sobre' },
+      { text: 'Sobre', link: '/sobre' },
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-withSidebar(vitePressConfigs, {
+    sidebar: generateSidebar(
+      {
        documentRootPath: '/',
         manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
       useFolderLinkFromSameNameSubFile: true,
@@ -93,7 +89,7 @@ withSidebar(vitePressConfigs, {
         collapseDepth: 1,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-}),
+    }),
     
 
     socialLinks: [
@@ -105,3 +101,10 @@ markdown: {
       md.use(BiDirectionalLinks()) 
     },
   }})
+
+const vitePressSidebarOptions = {
+  // VitePress Sidebar's options here...
+  documentRootPath: '/',
+  collapsed: true,
+  capitalizeFirst: true
+};

@@ -73,7 +73,7 @@ ignoreDeadLinks: true,
         collapseDepth: 1,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-    },
+    }
     
     
     ),

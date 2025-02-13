@@ -4,18 +4,25 @@ import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 
+const vitePressOptions = {
+  // VitePress's options here...
+  title: 'VitePress Sidebar',
+  themeConfig: {
+    // ...
+  }
+};
+
+const vitePressSidebarOptions = {
+  // VitePress Sidebar's options here...
+  documentRootPath: '/',
+  collapsed: false,
+  capitalizeFirst: true
+};
 
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
-    withSidebar(vitePressConfigs, {
-       documentRootPath: '/',
-      useFolderLinkFromSameNameSubFile: true,
-        collapsed: true,
-        collapseDepth: 1,
-        capitalizeFirst: true,
-        sortFolderTo: 'bottom',
-    }),
+withSidebar(vitePressOptions, vitePressSidebarOptions),
   
 logo: '/logo.svg',
   locales: {

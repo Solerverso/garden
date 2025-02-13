@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notas/livros/Como o futebol explica o mundo.md",
+                "file": "notas/notas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Como o futebol explica o mundo"
+              "title": "notas"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/livros/Como o futebol explica o mundo.md",
+                "file": "notas/notas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Como o futebol explica o mundo"
+              "title": "Backlinks for notas"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/livros/Como o futebol explica o mundo.md",
+                "file": "notas/notas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Como o futebol explica o mundo"
+              "title": "Outgoing links from notas"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/livros/Como o futebol explica o mundo.md",
+                "file": "notas/notas.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Como o futebol explica o mundo"
+              "title": "Outline of notas"
             }
           }
         ]
@@ -168,8 +168,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2c351609418df573",
+  "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
+    "notas/livros/Como o futebol explica o mundo.md",
+    "notas/livros/futebol-explica.md",
     "node_modules/caniuse-lite/README.md",
     "node_modules/caniuse-lite/package.json",
     "node_modules/tailwindcss/LICENSE",
@@ -192,7 +194,6 @@
     "node_modules/postcss-value-parser/README.md",
     "node_modules/electron-to-chromium/README.md",
     "notas/notas.md",
-    "notas/livros/Como o futebol explica o mundo.md",
     "almanaque/livros.md",
     "notas/teste.md",
     "img/livros/sagrado-profano.jpg.jpg",
@@ -215,7 +216,6 @@
     "literatura/contos/devenire.md",
     "literatura/contos/cela.md",
     "base/literatura/contos/devenire.md",
-    "base/literatura/contos/cela.md",
     "Untitled 1.canvas",
     "Untitled.canvas"
   ]

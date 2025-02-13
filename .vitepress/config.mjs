@@ -45,18 +45,23 @@ ignoreDeadLinks: true,
 
     sidebar: generateSidebar({
 
-      '/videos/': [
-        {
+     [
+    {
+      documentRootPath: '/',
+      scanStartPath: 'videos',
+      basePath: '/videos/',
+      resolvePath: '/videos/',
+      useTitleFromFileHeading: true
+    },
+       {
        documentRootPath: '/',
       useFolderLinkFromSameNameSubFile: true,
         collapsed: true,
         collapseDepth: 2,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-        }
-      ],
-
-
+       }
+      ]
 
     }),
 

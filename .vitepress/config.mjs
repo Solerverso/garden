@@ -47,14 +47,12 @@ ignoreDeadLinks: true,
 
   withSidebar(vitePressConfigs, [
     {
-      documentRootPath: '/',
       scanStartPath: 'videos',
       basePath: '/videos/',
       resolvePath: '/videos/',
       useTitleFromFileHeading: true
     },
     {
-      documentRootPath: '/',
       scanStartPath: 'notas',
       resolvePath: '/notas/',
       useTitleFromFrontmatter: true

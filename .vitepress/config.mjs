@@ -66,12 +66,18 @@ markdown: {
 
 
 
-export default defineConfig(withSidebar(vitePressConfigs, [{
-  documentRootPath: "/",
-        manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
-      useFolderLinkFromSameNameSubFile: true,
-        collapseDepth: 1,
-        collapsed: true,
-        capitalizeFirst: true,
-        sortFolderTo: 'bottom',
-}]))
+export default defineConfig(withSidebar(vitePressConfigs, [
+    {
+      documentRootPath: '/',
+      scanStartPath: 'notas',
+      basePath: '/notas/',
+      resolvePath: '/notas/',
+      useTitleFromFileHeading: true
+    },
+    {
+      documentRootPath: '/',
+      scanStartPath: 'almanaque',
+      resolvePath: '/almanaque/',
+      useTitleFromFrontmatter: true
+    }
+  ]))

@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@chunge16/vitepress-blogs-theme": "^0.2.4",
     "@nolebase/markdown-it-bi-directional-links": "^2.13.2",
     "@nolebase/vitepress-plugin-enhanced-readabilities": "^2.13.2",
     "@nolebase/vitepress-plugin-sidebar": "^2.13.2",

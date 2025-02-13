@@ -45,21 +45,21 @@ ignoreDeadLinks: true,
 
     sidebar: generateSidebar({
 
+  withSidebar(vitePressConfigs, [
     {
-      documentRootPath: '/',
-      scanStartPath: 'videos',
-      basePath: '/videos/',
-      resolvePath: '/videos/',
+      documentRootPath: 'docs',
+      scanStartPath: 'guide',
+      basePath: '/guide/',
+      resolvePath: '/guide/',
       useTitleFromFileHeading: true
     },
-       {
-       documentRootPath: '/',
-      useFolderLinkFromSameNameSubFile: true,
-        collapsed: true,
-        collapseDepth: 2,
-        capitalizeFirst: true,
-        sortFolderTo: 'bottom',
-       }
+    {
+      documentRootPath: 'docs',
+      scanStartPath: 'config',
+      resolvePath: '/config/',
+      useTitleFromFrontmatter: true
+    }
+  ]
 
 
     }),

@@ -7,6 +7,17 @@ sidebar: true
 Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 ## 2024
+<div class="gallery">
+<a href="./notas/teste"><img class="four-grid-cells" src="/img/livros/Aladim.jpg" alt="Northern Winter Sky Image" /></a>
+<img class="four-grid-cells" src="/img/livros/cérebro.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/human-evolution.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/religioes-ph.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/human-evolution-bw.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/macaco-nu.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/sagrado-profano.jpg" alt="Northern Winter Sky Image" />
+</div>
+
+
 - Como o futebol explica o mundo (Franklin Foer)
 - Aladim
 - Cérebro: uma biografia (David Eagleman)
@@ -42,10 +53,10 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 <style>
 .gallery {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: auto;
     grid-auto-flow: dense;
-    gap: 6px;
+    gap: 5px;
 }
 
 img {
@@ -65,31 +76,7 @@ img.wide-image {
 </style>
 
 
-<div class="gallery">
-<img class="four-grid-cells" src="/img/livros/Aladim.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/cérebro.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/Aladim.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/cérebro.jpg" alt="Northern Winter Sky Image" />
-</div>
-            
 
             
-
-            
-
-          
 
         
-
-
-<div class="gallery">
-        <figure class="gallery-item">
-            <img src="/img/livros/Aladim.jpg" alt="" class="gallery-item__image">
-        </figure>
-        <figure class="gallery-item">
-            <img src="/img/livros/cérebro.jpg" alt="" class="gallery-item__image">
-        </figure>
-</div>
-
-
-

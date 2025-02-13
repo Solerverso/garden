@@ -72,7 +72,7 @@ markdown: {
       md.use(BiDirectionalLinks()) 
     }
 }
-}; satisfies UserConfig<DefaultTheme.Config>
+};
 
 
 

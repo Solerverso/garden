@@ -43,9 +43,14 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar: generateSidebar({
+    sidebar: ,
 
+
+    sidebar: {
+      // This sidebar gets displayed when a user
+      // is on `guide` directory.
       '/videos/': [
+generateSidebar({
         {
        documentRootPath: '/',
       useFolderLinkFromSameNameSubFile: true,
@@ -55,9 +60,6 @@ ignoreDeadLinks: true,
         sortFolderTo: 'bottom',
         }
       ],
-
-
-
     }),
 
     socialLinks: [

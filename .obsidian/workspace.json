@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sobre/index.md",
+                "file": "notas/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sobre/index.md",
+                "file": "notas/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sobre/index.md",
+                "file": "notas/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sobre/index.md",
+                "file": "notas/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,8 +170,9 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
-    "notas/notas.md",
     "sobre/index.md",
+    "notas/index.md",
+    "notas/notas.md",
     "node_modules/xml-js/bin/test.xml",
     "node_modules/xml-js/bin/test.json",
     "node_modules/xml-js/bin/cli-helper.js",
@@ -207,7 +208,6 @@
     "node_modules/date-fns/docs/i18nContributionGuide.md",
     "node_modules/date-fns/docs/i18n.md",
     "node_modules/date-fns/docs/gettingStarted.md",
-    "node_modules/date-fns/docs/fp.md",
     "node_modules/lit/logo.svg",
     "img/livros/sagrado-profano.jpg.jpg",
     "img/livros/religioes-ph.jpg.jpg",

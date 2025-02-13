@@ -42,8 +42,8 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 <div class="row">  
   <div class="column">  
-    <img src="wedding.jpg">  
-    <img src="rocks.jpg">  
+    <img src="img/livros/aladim.jpg">  
+    <img src="img/livros/Cérebro.jpg">  
     <img src="falls2.jpg">  
     <img src="paris.jpg">  
     <img src="nature.jpg">  

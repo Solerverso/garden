@@ -4,24 +4,25 @@ import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 
-const vitePressOptions = {
-  // VitePress's options here...
-  title: 'VitePress Sidebar',
-  themeConfig: {
-    // ...
+// @see https://vitepress-sidebar.cdget.com
+function getMenu(folder) {
+  return {
+    documentRootPath: '/',
+    scanStartPath: folder,
+    basePath: `/${folder}/`,
+    resolvePath: `/${folder}/`,
+    useTitleFromFileHeading: true,
+    useFolderTitleFromIndexFile: true,
+    capitalizeEachWords: true,
+    includeFolderIndexFile: true,
   }
-};
+}
 
 
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
- withSidebar(vitePressConfigs, {
-  documentRootPath: '/',
-  collapsed: false,
-  capitalizeFirst: true
-   },
-  
+
 logo: '/logo.svg',
   locales: {
     root: {
@@ -85,3 +86,10 @@ const vitePressSidebarOptions = {
   collapsed: true,
   capitalizeFirst: true
 };
+
+export default withSidebar(config, [
+  getMenu('notas'),
+  getMenu('videos'),
+  getMenu('sobre'),
+  getMenu('almanaque'),
+  ])

@@ -46,6 +46,7 @@ ignoreDeadLinks: true,
     sidebar: generateSidebar({
 
        documentRootPath: 'videos',
+      scanStartPath: 'videos',
       basePath: 'videos',
       resolvePath: '/videos/',
       useFolderLinkFromSameNameSubFile: true,

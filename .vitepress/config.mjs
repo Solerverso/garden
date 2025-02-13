@@ -54,13 +54,9 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar: {
-      // This sidebar gets displayed when a user
-      // is on `guide` directory.
-      '/': [
-        {
-generateSidebar(
+    sidebar: generateSidebar(
       {
+       documentRootPath: '/',
         manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
       useFolderLinkFromSameNameSubFile: true,
         collapseDepth: 1,
@@ -68,23 +64,7 @@ generateSidebar(
         collapseDepth: 1,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-    })
-        }
-      ],
-
-      // This sidebar gets displayed when a user
-      // is on `config` directory.
-      '/sobre/': [
-        {
-          text: 'Config',
-          items: [
-            { text: 'Index', link: '/config/' },
-            { text: 'Three', link: '/config/three' },
-            { text: 'Four', link: '/config/four' }
-          ]
-        }
-      ]
-    },
+    }),
     
 
     socialLinks: [

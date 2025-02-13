@@ -72,19 +72,10 @@ ignoreDeadLinks: true,
       // is on `config` directory.
       '/sobre/': [
         {
-generateSidebar(
-      {
-      scanStartPath: 'sobre',
-      basePath: '/sobe/',
-      resolvePath: '/sobre/',
-        manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
-      useFolderLinkFromSameNameSubFile: true,
-        collapseDepth: 1,
-        collapsed: true,
-        collapseDepth: 1,
-        capitalizeFirst: true,
-        sortFolderTo: 'bottom',
-    })
+          text: 'Sobre',
+          items: [
+            { text: 'Sobre', link: '/sobre/' },
+          ]
         }
       ]
     },

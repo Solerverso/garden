@@ -57,7 +57,7 @@ ignoreDeadLinks: true,
     sidebar: {
       // This sidebar gets displayed when a user
       // is on `guide` directory.
-      '/guide/': [
+      '/': [
         {
           text: 'Guide',
           items: [
@@ -70,7 +70,7 @@ ignoreDeadLinks: true,
 
       // This sidebar gets displayed when a user
       // is on `config` directory.
-      '/config/': [
+      '/notas/': [
         {
           text: 'Config',
           items: [

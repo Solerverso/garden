@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "almanaque/livros.md",
+                "file": "notas/teste.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "livros"
+              "title": "teste"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "almanaque/livros.md",
+                "file": "notas/teste.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for livros"
+              "title": "Backlinks for teste"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "almanaque/livros.md",
+                "file": "notas/teste.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from livros"
+              "title": "Outgoing links from teste"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "almanaque/livros.md",
+                "file": "notas/teste.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of livros"
+              "title": "Outline of teste"
             }
           }
         ]
@@ -170,6 +170,7 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
+    "almanaque/livros.md",
     "public/livros/cérebro.jpg",
     "public/livros/Aladim.jpg",
     "public/livros",
@@ -194,7 +195,6 @@
     "literatura",
     "notas/teste.md",
     "notas",
-    "almanaque/livros.md",
     "base/literatura/contos/devenire.md",
     "base/literatura/contos/cela.md",
     "base/notas/teste.md",

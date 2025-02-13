@@ -1,17 +1,17 @@
 ---
 layout: home
 
-title: VitePress
+title: Solerverso
 titleTemplate: Vite & Vue Powered Static Site Generator
 
 hero:
-  name: VitePress
-  text: Vite & Vue Powered Static Site Generator
+  name: Solerverso
+  text: 
   tagline: Markdown to Beautiful Docs in Minutes
   actions:
     - theme: brand
-      text: What is VitePress?
-      link: /guide/what-is-vitepress
+      text: Sobre
+      link: /sobre/sobre
     - theme: alt
       text: Quickstart
       link: /guide/getting-started

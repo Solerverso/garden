@@ -7,7 +7,7 @@ import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
-
+logo: '/logo.svg',
   locales: {
     root: {
       label: 'Português',

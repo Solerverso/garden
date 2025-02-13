@@ -45,8 +45,10 @@ ignoreDeadLinks: true,
 
     sidebar: generateSidebar([
       {
-       documentRootPath: '/base',
-        scanStartPath: '/',
+       documentRootPath: '/',
+        scanStartPath: 'base',
+        basePath: '/base/',
+      resolvePath: '/base/',
         collapsed: true,
         collapseDepth: 2,
         capitalizeFirst: true,

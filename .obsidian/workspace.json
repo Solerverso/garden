@@ -11,14 +11,10 @@
             "id": "a45c13af41dd2e86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "sobre/sobre.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "sobre"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sobre/sobre.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for sobre"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sobre/sobre.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from sobre"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sobre/sobre.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sobre"
+              "title": "Outline"
             }
           }
         ]
@@ -170,33 +163,38 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
-    "almanaque/livros.md",
-    "sobre/sobre.md",
-    "almanaque",
     "sobre/agora.md",
+    "base/literatura/contos/devenire.md",
+    "base/literatura/contos/cela.md",
+    "base/literatura/contos",
+    "base/literatura",
+    "base/notas/teste.md",
+    "base/notas/notas.md",
+    "base/notas",
+    "base/projetos",
+    "base/sobre/usos.md",
+    "base/sobre/sobre.md",
+    "base/sobre/agora.md",
+    "base/sobre",
+    "base/almanaque/livros.md",
+    "base/almanaque",
+    "base",
+    "pasta sem título",
+    "sobre/sobre.md",
+    "almanaque/livros.md",
+    "almanaque",
     "sobre/usos.md",
     "projetos",
     "videos/Solerverso/Melhores livros que eu li em 2024.md",
-    "videos/Solerverso",
-    "videos/pasta sem título",
     "videos/Melhores livros que eu li em 2024.md",
-    "videos",
     "notas/teste.md",
     "notas/notas.md",
     "notas/index.md.md",
     "literatura/contos/cela.md",
-    "notas",
     "literatura/contos/devenire.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "literatura/contos",
-    "literatura",
-    "sobre",
     "index.md",
-    "base/literatura/contos/devenire.md",
-    "base/literatura/contos/cela.md",
-    "base/literatura/contos",
-    "base/sobre/sobre.md",
     "base/index.md",
     "base/biblioteca.md"
   ]

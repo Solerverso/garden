@@ -72,6 +72,7 @@ ignoreDeadLinks: true,
               blog: 'i-[carbon/blog]',
               comment: 'i-[carbon/add-comment]',
           },
+      },
     
   appearance: 'dark',
     // https://vitepress.dev/reference/default-theme-config

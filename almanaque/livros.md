@@ -39,10 +39,8 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 
 
-
-<div class="row">  
-  <div class="column">  
-    <img src="/img/livros/aladim.jpg">  
-    <img src="/img/livros/Cérebro.jpg">   
-  </div>
-</div>
+| ![alt text](img/livros/aladin.jpg) |      Are      |  Cool |
+| ---------------------------------- | :-----------: | ----: |
+| col 3 is                           | right-aligned | $1600 |
+| col 2 is                           |   centered    |   $12 |
+| zebra stripes                      |   are neat    |    $1 |

@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-import { withSidebar } from "vitepress-sidebar",
+import { withSidebar } from "vitepress-sidebar";
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 

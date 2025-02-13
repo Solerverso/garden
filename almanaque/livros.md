@@ -8,7 +8,7 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 ## 2024
 <div class="gallery">
-<img class="four-grid-cells" src="/img/livros/futebol-explica.jpg"/>
+<a href="/notas/livros/futebol-explica"><img class="four-grid-cells" src="/img/livros/futebol-explica.jpg"/></a>
 <img class="four-grid-cells" src="/img/livros/Aladim.jpg"/>
 <img class="four-grid-cells" src="/img/livros/cérebro.jpg"/>
 <img class="four-grid-cells" src="/img/livros/human-evolution.jpg"/>

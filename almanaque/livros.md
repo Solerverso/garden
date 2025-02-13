@@ -38,9 +38,4 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 - Hadji Murad (Liev Tolstói)
 
 
-
-| ![alt text](/img/livros/aladim.jpg) |      Are      |  Cool |
-| ----------------------------------- | :-----------: | ----: |
-| col 3 is                            | right-aligned | $1600 |
-| col 2 is                            |   centered    |   $12 |
-| zebra stripes                       |   are neat    |    $1 |
+![alt text](livros/aladim.jpg)

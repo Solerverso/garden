@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notas/notas.md",
+                "file": "sobre/usos.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notas"
+              "title": "usos"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/notas.md",
+                "file": "sobre/usos.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for notas"
+              "title": "Backlinks for usos"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/notas.md",
+                "file": "sobre/usos.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from notas"
+              "title": "Outgoing links from usos"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/notas.md",
+                "file": "sobre/usos.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of notas"
+              "title": "Outline of usos"
             }
           }
         ]
@@ -170,12 +170,12 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
+    "notas/notas.md",
     "literatura/contos/devenire.md",
     "literatura/contos/cela.md",
     "literatura/contos",
     "literatura",
     "notas/teste.md",
-    "notas/notas.md",
     "notas",
     "projetos",
     "sobre/usos.md",

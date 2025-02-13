@@ -54,9 +54,9 @@ ignoreDeadLinks: true,
       useTitleFromFileHeading: true
     },
     {
-      documentRootPath: 'docs',
-      scanStartPath: 'config',
-      resolvePath: '/config/',
+      documentRootPath: '/',
+      scanStartPath: 'notas',
+      resolvePath: '/notas/',
       useTitleFromFrontmatter: true
     }
   ]

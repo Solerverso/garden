@@ -13,13 +13,6 @@ export default defineConfig({
       label: 'Português',
       lang: 'pt'
     },
-    fr: {
-      label: 'English',
-      lang: 'en', // optional, will be added  as `lang` attribute on `html` tag
-      link: '/fr/guide' // default /fr/ -- shows on navbar translations menu, can be external
-
-      // other locale specific properties...
-    }
   },
   
   lang: 'pt',

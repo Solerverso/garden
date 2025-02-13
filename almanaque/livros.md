@@ -40,35 +40,62 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 
 <style>
-*{
- margin:0;
- padding:0;
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 6px;
 }
-  .gallery{
- display: flex;
- flex-flow: wrap;
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
-  .gllery-item{
- flex-grow: 1;
- min-width: 50px;
+
+img.four-grid-cells {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
 }
-  .gallery-item:before{
- content:"";
- display: block;
- padding-top: 100%;
-}
-  .gallery-item__image{
- width: 100%;
- height: 100%;
- top: 0;
- position: absolute;
- object-fit: cover;
- object-position: center;
+
+img.wide-image {
+    grid-column: span 2 / auto;
 }
 </style>
 
 
+<div class="gallery">
 
+            <img class="four-grid-cells"
+                src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg"
+                alt="Northern Winter Sky Image" />
+
+            <img
+                src="https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg"
+                alt="Shining Stars Image" />
+
+            <img class="wide-image"
+                src="https://images.pexels.com/photos/3933881/pexels-photo-3933881.jpeg"
+                alt="A River Flowing Image" />
+
+            <img
+                src="https://images.pexels.com/photos/5409751/pexels-photo-5409751.jpeg"
+                alt="A cloudy Mountain Image" />
+
+            <img
+                src="https://images.pexels.com/photos/4101555/pexels-photo-4101555.jpeg"
+                alt="A Winter Rainbow Image" />
+
+            <img class="wide-image"
+                src="https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg"
+                alt="A Clean Mountain Lake" />
+
+            <img
+                src="https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg"
+                alt="Shining Stars Image" />
+
+        </div>
 
 
 <div class="gallery">

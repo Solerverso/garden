@@ -79,6 +79,33 @@ img.wide-image {
 
 
 
+<div class="container mx-auto flex flex-wrap justify-center gap-x-4 gap-y-4">
+
+<ArticleCard
+title="My new Article 1"
+excerpt="Est commodi iusto et alias deleniti sed voluptatibus tempora est reprehenderit autem..."
+image="/thumbnail-01.png"
+href="/articles/article-1"
+date="2023-05-29"
+/>
+
+<ArticleCard
+title="My new Article 2"
+excerpt="Est commodi iusto et alias deleniti sed voluptatibus tempora est reprehenderit autem..."
+image="/thumbnail-01.png"
+href="/articles/article-1"
+date="2023-05-29"
+/>
+
+<ArticleCard
+title="My new Article 3"
+excerpt="Est commodi iusto et alias deleniti sed voluptatibus tempora est reprehenderit autem..."
+image="/thumbnail-01.png"
+href="/articles/article-1"
+date="2023-05-29"
+/>
+
+</div>
             
 
         

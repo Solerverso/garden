@@ -54,6 +54,7 @@ ignoreDeadLinks: true,
     },
     {
       scanStartPath: 'videos',
+      resolvePath: '/videos/',
       useTitleFromFrontmatter: true
     }
   ]),

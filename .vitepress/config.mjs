@@ -59,6 +59,14 @@ ignoreDeadLinks: true,
     ],
 
 withSidebar(vitePressConfigs, {
+       documentRootPath: '/',
+        manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
+      useFolderLinkFromSameNameSubFile: true,
+        collapseDepth: 1,
+        collapsed: true,
+        collapseDepth: 1,
+        capitalizeFirst: true,
+        sortFolderTo: 'bottom',
 }),
     
 

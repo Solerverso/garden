@@ -12,12 +12,6 @@ const vitePressOptions = {
   }
 };
 
-const vitePressSidebarOptions = {
-  // VitePress Sidebar's options here...
-  documentRootPath: '/',
-  collapsed: false,
-  capitalizeFirst: true
-},
 
 // https://vitepress.dev/reference/site-config
 

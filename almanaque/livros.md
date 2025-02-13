@@ -66,7 +66,8 @@ img.wide-image {
 
 
 <div class="gallery">
-<img class="four-grid-cells" src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/Aladim.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/cérebro.jpg" alt="Northern Winter Sky Image" />
  <img src="https://images.pexels.com/photos/1142950/pexels-photo-1142950.jpeg" alt="Shining Stars Image" />
      <img class="wide-image" src="https://images.pexels.com/photos/3933881/pexels-photo-3933881.jpeg" alt="A River Flowing Image" />
 <img src="https://images.pexels.com/photos/5409751/pexels-photo-5409751.jpeg" alt="A cloudy Mountain Image" />

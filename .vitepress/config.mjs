@@ -43,21 +43,13 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar: {
-      '/videos/': [
-        {
-
-          generateSidebar({
+    sidebar:generateSidebar({
       useFolderLinkFromSameNameSubFile: true,
         collapsed: true,
         collapseDepth: 2,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-    })
-          
-        }
-      ]
-    },
+    }),
     
 
     socialLinks: [

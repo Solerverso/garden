@@ -3,19 +3,10 @@ import { withSidebar } from 'vitepress-sidebar';
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
-const vitePressOptions = {
-  // VitePress's options here...
-  title: 'VitePress Sidebar',
-  themeConfig: {
-    // ...
-  }
-};
+const vitePressOptions = {};
 
 const vitePressSidebarOptions = {
-  // VitePress Sidebar's options here...
-  documentRootPath: '/',
-  collapsed: false,
-  capitalizeFirst: true
+  documentRootPath: '/'
 };
 
 // https://vitepress.dev/reference/site-config
@@ -67,7 +58,8 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-withSidebar(vitePressOptions, vitePressSidebarOptions),
+withSidebar(vitePressConfigs, {
+},
     
 
     socialLinks: [

@@ -7,14 +7,12 @@ import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // @see https://vitepress-sidebar.cdget.com
 function getMenu(folder) {
   return {
-    documentRootPath: '/',
-    scanStartPath: folder,
-    basePath: `/${folder}/`,
-    resolvePath: `/${folder}/`,
-    useTitleFromFileHeading: true,
-    useFolderTitleFromIndexFile: true,
-    capitalizeEachWords: true,
-    includeFolderIndexFile: true,
+       documentRootPath: '/',
+      useFolderLinkFromSameNameSubFile: true,
+        collapsed: true,
+        collapseDepth: 1,
+        capitalizeFirst: true,
+        sortFolderTo: 'bottom',
   }
 }
 

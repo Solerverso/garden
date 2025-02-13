@@ -46,9 +46,9 @@ ignoreDeadLinks: true,
     sidebar:generateSidebar([
     {
       documentRootPath: '/',
-      scanStartPath: 'videos',
-      basePath: '/videos/',
-      resolvePath: '/videos/',
+      scanStartPath: '/',
+      basePath: '/',
+      resolvePath: '/',
       useTitleFromFileHeading: true
     },
     {

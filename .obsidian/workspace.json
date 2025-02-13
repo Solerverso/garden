@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notas/notas.md",
+                "file": "sobre/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "notas"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/notas.md",
+                "file": "sobre/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for notas"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/notas.md",
+                "file": "sobre/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from notas"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/notas.md",
+                "file": "sobre/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of notas"
+              "title": "Outline of index"
             }
           }
         ]
@@ -170,6 +170,8 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
+    "notas/notas.md",
+    "sobre/index.md",
     "node_modules/xml-js/bin/test.xml",
     "node_modules/xml-js/bin/test.json",
     "node_modules/xml-js/bin/cli-helper.js",
@@ -180,7 +182,6 @@
     "node_modules/xml-js/types/tsconfig.json",
     "node_modules/xml-js/lib/xml2js.js",
     "node_modules/xml-js/lib/xml2json.js",
-    "node_modules/xml-js/lib/options-helper.js",
     "node_modules/xml-js/README.md",
     "node_modules/feed/README.md",
     "node_modules/feed/CONTRIBUTORS.md",
@@ -207,7 +208,6 @@
     "node_modules/date-fns/docs/i18n.md",
     "node_modules/date-fns/docs/gettingStarted.md",
     "node_modules/date-fns/docs/fp.md",
-    "node_modules/date-fns/docs/esm.md",
     "node_modules/lit/logo.svg",
     "img/livros/sagrado-profano.jpg.jpg",
     "img/livros/religioes-ph.jpg.jpg",

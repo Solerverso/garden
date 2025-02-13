@@ -47,7 +47,8 @@ ignoreDeadLinks: true,
        documentRootPath: '/',
         collapsed: true,
         collapseDepth: 2,
-        capitalizeFirst: true
+        capitalizeFirst: true,
+        sortFolderTo: 'bottom',
     }),
 
     socialLinks: [

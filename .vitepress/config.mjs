@@ -45,16 +45,16 @@ ignoreDeadLinks: true,
 
     sidebar:generateSidebar([
     {
-      documentRootPath: '/',
-      scanStartPath: '/',
-      basePath: '/',
-      resolvePath: '/',
-      useTitleFromFileHeading: true
+       documentRootPath: '/',
+      useFolderLinkFromSameNameSubFile: true,
+        collapsed: true,
+        collapseDepth: 2,
+        capitalizeFirst: true,
+        sortFolderTo: 'bottom',
     },
     {
-      documentRootPath: '/',
-      scanStartPath: 'notas',
-      resolvePath: '/notas/',
+      scanStartPath: 'videos',
+      resolvePath: '/videos/',
       useTitleFromFrontmatter: true
     }
   ]),

@@ -1,5 +1,5 @@
 ---
-title: Como o Futebol Explica o Mundo
+name: Como o Futebol Explica o Mundo
 ---
 
 

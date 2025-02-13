@@ -76,7 +76,7 @@ export default defineConfig(withSidebar(vitePressConfigs, [
       rootGroupText: 'Sobre',
         manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
       useFolderLinkFromSameNameSubFile: true,
-        collapseDepth: 1,
+        collapseDepth: 2,
         collapsed: true,
         collapseDepth: 1,
         capitalizeFirst: true,

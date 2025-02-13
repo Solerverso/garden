@@ -67,7 +67,7 @@ markdown: {
 
 
 export default defineConfig(withSidebar(vitePressConfigs, [{
-  documentRootPath: "https://solerverso.github.io/",
+  documentRootPath: "/",
         manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
       useFolderLinkFromSameNameSubFile: true,
         collapseDepth: 1,

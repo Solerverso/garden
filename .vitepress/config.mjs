@@ -22,7 +22,11 @@ const vitePressSidebarOptions = {
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
-withSidebar(vitePressOptions, vitePressSidebarOptions),
+ withSidebar(vitePressConfigs, {
+  documentRootPath: '/',
+  collapsed: false,
+  capitalizeFirst: true
+   },
   
 logo: '/logo.svg',
   locales: {

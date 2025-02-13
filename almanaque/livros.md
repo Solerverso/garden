@@ -49,4 +49,12 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 <img src="/img/livros/cérebro.jpg"/>
 
 
+<div class="row"> 
+  <div class="column">
+    <img src="/img/livros/Aladim.jpg" style="width:100%">
+    <img src="/img/livros/cérebro.jpg" style="width:100%">
+  </div>
+</div>
+
+
 

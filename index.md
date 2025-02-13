@@ -35,7 +35,6 @@ features:
   - icon: 🚀
     title: Ship Fast Sites
     details: Fast initial load with static HTML, fast post-load navigation with client-side routing.
----
 
 <div class="grid gap-5 lg:grid-cols-2 max-w-172 lg:max-w-none mx-auto">
   <IntegrationCard type="markdown-it" title="Bi-Directional Links" package="markdown-it-bi-directional-links">
@@ -140,3 +139,5 @@ features:
     </template>
   </IntegrationCard>
 </div>
+
+---

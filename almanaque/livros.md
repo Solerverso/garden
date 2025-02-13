@@ -36,3 +36,5 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 - Pai Contra Mãe (Machado de Assis)
 - As Cruzadas Vistas pelos Árabes (Amin Maalouf)
 - Hadji Murad (Liev Tolstói)
+
+![alt text](livros/aladim.jpg)

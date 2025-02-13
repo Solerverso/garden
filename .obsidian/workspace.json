@@ -11,14 +11,10 @@
             "id": "a45c13af41dd2e86",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "biblioteca.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "biblioteca"
+              "title": "New tab"
             }
           }
         ]
@@ -94,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "biblioteca.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for biblioteca"
+              "title": "Backlinks"
             }
           },
           {
@@ -113,12 +108,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "biblioteca.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from biblioteca"
+              "title": "Outgoing links"
             }
           },
           {
@@ -142,13 +136,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "biblioteca.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of biblioteca"
+              "title": "Outline"
             }
           }
         ]
@@ -169,5 +162,16 @@
     }
   },
   "active": "a45c13af41dd2e86",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "base/literatura/contos/cela.md",
+    "base/literatura/contos/devenire.md",
+    "base/literatura/contos",
+    "base/literatura",
+    "biblioteca.md",
+    "base/biblioteca.md",
+    "base/sobre/sobre.md",
+    "base/sobre",
+    "base",
+    "pasta sem título"
+  ]
 }

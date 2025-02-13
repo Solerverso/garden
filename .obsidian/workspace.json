@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "almanaque/livros/Como o futebol explica o mundo.md",
+                "file": "notas/livros/Como o futebol explica o mundo.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "almanaque/livros/Como o futebol explica o mundo.md",
+                "file": "notas/livros/Como o futebol explica o mundo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "almanaque/livros/Como o futebol explica o mundo.md",
+                "file": "notas/livros/Como o futebol explica o mundo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "almanaque/livros/Como o futebol explica o mundo.md",
+                "file": "notas/livros/Como o futebol explica o mundo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -168,13 +168,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a45c13af41dd2e86",
+  "active": "2c351609418df573",
   "lastOpenFiles": [
     "notas/notas.md",
-    "almanaque/livros/Como o futebol explica o mundo.md",
-    "almanaque/livros/livros.md",
+    "notas/livros/Como o futebol explica o mundo.md",
+    "almanaque/livros.md",
     "notas/livros/pasta sem título",
-    "almanaque/livros",
+    "notas/livros",
     "notas/pasta sem título",
     "notas/teste.md",
     "img/livros/sagrado-profano.jpg.jpg",

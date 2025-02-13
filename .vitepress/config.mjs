@@ -84,7 +84,7 @@ generateSidebar(
         collapseDepth: 1,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-    }
+    })
           ]
         }
       ]

@@ -86,10 +86,3 @@ const vitePressSidebarOptions = {
   collapsed: true,
   capitalizeFirst: true
 };
-
-export withSidebar(config, [
-  getMenu('notas'),
-  getMenu('videos'),
-  getMenu('sobre'),
-  getMenu('almanaque'),
-  ])

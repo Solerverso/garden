@@ -53,7 +53,7 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 <style>
 .gallery {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-auto-rows: auto;
     grid-auto-flow: dense;
     gap: 5px;

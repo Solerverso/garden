@@ -43,7 +43,8 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar: generateSidebar({
+    sidebar: generateSidebar([
+      {
        documentRootPath: '/base',
         scanStartPath: '/',
         collapsed: true,
@@ -57,7 +58,7 @@ ignoreDeadLinks: true,
         collapseDepth: 2,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-    }
+    }]
                             
                             
                             ),

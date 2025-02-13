@@ -48,7 +48,8 @@ ignoreDeadLinks: true,
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Sobre', link: '/sobre' },
-      { text: 'Notas', link: '/notas' }
+      { text: 'Notas', link: '/notas' },
+      { text: 'Jornal', link: '/jornal' }
     ],
     
 

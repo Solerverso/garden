@@ -76,10 +76,3 @@ markdown: {
       md.use(BiDirectionalLinks()) 
     },
   }})
-
-const vitePressSidebarOptions = {
-  // VitePress Sidebar's options here...
-  documentRootPath: '/',
-  collapsed: true,
-  capitalizeFirst: true
-};

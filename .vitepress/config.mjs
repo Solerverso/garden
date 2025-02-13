@@ -70,7 +70,7 @@ ignoreDeadLinks: true,
 
       // This sidebar gets displayed when a user
       // is on `config` directory.
-      '/notas/': [
+      '/sobre/': [
         {
           text: 'Config',
           items: [

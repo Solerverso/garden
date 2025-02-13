@@ -2,15 +2,12 @@ import { defineConfig } from 'vitepress';
 import { generateSidebar } from 'vitepress-sidebar';
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
-import {VPBTheme} from "@chunge16/vitepress-blogs-theme";
 
 
 
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
-      extends: VPBTheme,
-
 logo: '/logo.svg',
   locales: {
     root: {

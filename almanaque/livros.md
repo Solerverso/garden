@@ -37,75 +37,48 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 - As Cruzadas Vistas pelos Árabes (Amin Maalouf)
 - Hadji Murad (Liev Tolstói)
 
-| Tables        |      Are      |  Cool |
-| ------------- | :-----------: | ----: |
-| ![Aladim](/img/livros/Aladim.jpg)    | ![Cérebro](/img/livros/cérebro.jpg) | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
-
-
-
-<img src="/img/livros/Aladim.jpg"/>
-<img src="/img/livros/cérebro.jpg"/>
 
 
 <style>
-* {
-  box-sizing: border-box;
+*{
+ margin:0;
+ padding:0;
 }
-
-body {
-  margin: 0;
-  font-family: Arial;
+  .gallery{
+ display: flex;
+ flex-flow: wrap;
 }
-
-.header {
-  text-align: center;
-  padding: 32px;
+  .gllery-item{
+ flex-grow: 1;
+ min-width: 150px;
 }
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
+  .gallery-item:before{
+ content:"";
+ display: block;
+ padding-top: 100%;
 }
-
-/* Create four equal columns that sits next to each other */
-.column {
-  flex: 25%;
-  max-width: 25%;
-  padding: 0 4px;
-}
-
-.column img {
-  margin-top: 8px;
-  vertical-align: middle;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    flex: 50%;
-    max-width: 50%;
-  }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    flex: 100%;
-    max-width: 100%;
-  }
+  .gallery-item__image{
+ width: 100%;
+ height: 100%;
+ top: 0;
+ position: absolute;
+ object-fit: cover;
+ object-position: center;
 }
 </style>
 
 
-<div class="row"> 
-  <div class="column">
-    <img src="/img/livros/Aladim.jpg" style="width:100%">
-    <img src="/img/livros/cérebro.jpg" style="width:100%">
-  </div>
-</div>
+
+
+
+<div class="gallery">
+        <figure class="gallery-item">
+            <img src="/img/livros/Aladim.jpg" alt="" class="gallery-item__image">
+        </figure>
+        <figure class="gallery-item">
+            <img src="/img/livros/cérebro.jpg" alt="" class="gallery-item__image">
+        </figure>
+    </div>
 
 
 

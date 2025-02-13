@@ -45,19 +45,17 @@ ignoreDeadLinks: true,
 
     sidebar: generateSidebar({
 
-  withSidebar(vitePressConfigs, [
-    {
-      scanStartPath: videos,
-      basePath: /videos/,
-      resolvePath: /videos/,
-      useTitleFromFileHeading: true
-    },
-    {
-      scanStartPath: notas,
-      resolvePath: /notas/,
-      useTitleFromFrontmatter: true
-    }
-  ]
+      '/videos/': [
+        {
+       documentRootPath: '/',
+      useFolderLinkFromSameNameSubFile: true,
+        collapsed: true,
+        collapseDepth: 2,
+        capitalizeFirst: true,
+        sortFolderTo: 'bottom',
+        }
+      ],
+
 
 
     }),
@@ -78,7 +76,3 @@ const vitePressSidebarOptions = {
   collapsed: true,
   capitalizeFirst: true
 };
-
-
-
- 

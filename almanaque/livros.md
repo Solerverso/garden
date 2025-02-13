@@ -37,5 +37,5 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 - As Cruzadas Vistas pelos Árabes (Amin Maalouf)
 - Hadji Murad (Liev Tolstói)
 
-
+<img title="a title" alt="Alt text" src="img/livros/aladim.jpg">
 

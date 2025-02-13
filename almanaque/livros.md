@@ -39,7 +39,7 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 | Tables        |      Are      |  Cool |
 | ------------- | :-----------: | ----: |
-| ![Aladim](/img/livros/Aladim.jpg)    | ![Cérebro](/img/livros/Cérebro.jpg) | $1600 |
+| ![Aladim](/img/livros/Aladim.jpg)    | ![Cérebro](/img/livros/cérebro.jpg) | $1600 |
 | col 2 is      |   centered    |   $12 |
 | zebra stripes |   are neat    |    $1 |
 

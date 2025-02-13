@@ -44,20 +44,22 @@ ignoreDeadLinks: true,
     ],
 
     sidebar: {
-      // This sidebar gets displayed when a user
-      // is on `guide` directory.
       '/videos/': [
-generateSidebar({
         {
+
+          generateSidebar({
        documentRootPath: '/',
       useFolderLinkFromSameNameSubFile: true,
         collapsed: true,
         collapseDepth: 2,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
+    })
+          
         }
-      ],
-    }),
+      ]
+    },
+    
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

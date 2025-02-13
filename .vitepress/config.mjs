@@ -47,6 +47,7 @@ ignoreDeadLinks: true,
 
        documentRootPath: 'videos',
       basePath: 'videos',
+      resolvePath: '/videos/',
       useFolderLinkFromSameNameSubFile: true,
         collapsed: true,
         collapseDepth: 2,

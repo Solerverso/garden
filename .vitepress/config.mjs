@@ -46,6 +46,7 @@ ignoreDeadLinks: true,
     sidebar: generateSidebar({
 
        documentRootPath: '/',
+      includeFolderIndexFile: true,
         collapsed: true,
         collapseDepth: 2,
         capitalizeFirst: true,

@@ -50,7 +50,7 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 }
   .gllery-item{
  flex-grow: 1;
- min-width: 150px;
+ min-width: 50px;
 }
   .gallery-item:before{
  content:"";

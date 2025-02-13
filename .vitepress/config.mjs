@@ -59,7 +59,7 @@ ignoreDeadLinks: true,
     ],
 
 withSidebar(vitePressConfigs, {
-},
+}),
     
 
     socialLinks: [

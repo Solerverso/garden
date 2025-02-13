@@ -45,7 +45,6 @@ ignoreDeadLinks: true,
 
     sidebar: generateSidebar({
 
-     [
     {
       documentRootPath: '/',
       scanStartPath: 'videos',
@@ -61,7 +60,7 @@ ignoreDeadLinks: true,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
        }
-      ]
+
 
     }),
 

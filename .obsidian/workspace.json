@@ -11,10 +11,10 @@
             "id": "a45c13af41dd2e86",
             "type": "leaf",
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -49,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Devernire",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -70,7 +70,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -163,6 +164,7 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
+    "Untitled.canvas",
     "literatura/contos/devenire.md",
     "literatura/contos/cela.md",
     "literatura/contos",

@@ -1,4 +1,4 @@
-#Devernire
+# Devernire
 
   Aparentemente era apenas mais uma manhã normal para Mário. Mesmo antes de se reclusar naquela casa de praia já mantinha o hábito de começar o dia observando a vista do mar enquanto tomava uma quente xícara de chá. Mas a normalidade desta vez era, de fato, apenas aparente.
 

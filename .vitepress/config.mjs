@@ -23,7 +23,7 @@ export default defineConfig({
       ], 
     }, 
   }, 
-  base: '/base/',
+  base: '/',
   title: "Solerverso",
   description: "Hello",
 ignoreDeadLinks: true,
@@ -38,14 +38,14 @@ ignoreDeadLinks: true,
   appearance: 'dark',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/base/' },
+      { text: 'Home', link: '/' },
       { text: 'Biblioteca', link: '/biblioteca' },
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
     sidebar:generateSidebar([
     {
-       documentRootPath: '/base/',
+       documentRootPath: '/',
       useFolderLinkFromSameNameSubFile: true,
         collapsed: true,
         collapseDepth: 2,
@@ -75,7 +75,7 @@ markdown: {
 
 const vitePressSidebarOptions = {
   // VitePress Sidebar's options here...
-  documentRootPath: '/base/',
+  documentRootPath: '/',
   collapsed: true,
   capitalizeFirst: true
 };

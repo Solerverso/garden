@@ -45,4 +45,8 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 
 
+<img src="/img/livros/Aladim.jpg"/>
+<img src="/img/livros/cérebro.jpg"/>
+
+
 

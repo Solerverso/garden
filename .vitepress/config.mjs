@@ -56,6 +56,7 @@ ignoreDeadLinks: true,
 
     sidebar: generateSidebar({
        documentRootPath: '/',
+        manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
       useFolderLinkFromSameNameSubFile: true,
         collapsed: true,
         collapseDepth: 1,

@@ -50,17 +50,6 @@ ignoreDeadLinks: true,
       { text: 'Sobre', link: '/sobre' },
       { text: 'Teste', link: '/markdown-examples' }
     ],
-
-    sidebar: generateSidebar(
-      {
-       documentRootPath: '/',
-        manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
-      useFolderLinkFromSameNameSubFile: true,
-        collapseDepth: 1,
-        collapsed: true,
-        capitalizeFirst: true,
-        sortFolderTo: 'bottom',
-    }),
     
 
     socialLinks: [

@@ -87,7 +87,7 @@ const vitePressSidebarOptions = {
   capitalizeFirst: true
 };
 
-export default withSidebar(config, [
+export withSidebar(config, [
   getMenu('notas'),
   getMenu('videos'),
   getMenu('sobre'),

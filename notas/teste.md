@@ -2,5 +2,5 @@
 
 
 
-![alt text](livros/aladim.jpg)
+
 

@@ -39,8 +39,8 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 
 
-| ![alt text](img/livros/aladin.jpg) |      Are      |  Cool |
-| ---------------------------------- | :-----------: | ----: |
-| col 3 is                           | right-aligned | $1600 |
-| col 2 is                           |   centered    |   $12 |
-| zebra stripes                      |   are neat    |    $1 |
+| ![alt text](/img/livros/aladim.jpg) |      Are      |  Cool |
+| ----------------------------------- | :-----------: | ----: |
+| col 3 is                            | right-aligned | $1600 |
+| col 2 is                            |   centered    |   $12 |
+| zebra stripes                       |   are neat    |    $1 |

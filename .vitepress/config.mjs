@@ -74,9 +74,17 @@ ignoreDeadLinks: true,
         {
           text: 'Config',
           items: [
-            { text: 'Index', link: '/config/' },
-            { text: 'Three', link: '/config/three' },
-            { text: 'Four', link: '/config/four' }
+generateSidebar(
+      {
+       documentRootPath: '/',
+        manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
+      useFolderLinkFromSameNameSubFile: true,
+        collapseDepth: 1,
+        collapsed: true,
+        collapseDepth: 1,
+        capitalizeFirst: true,
+        sortFolderTo: 'bottom',
+    }
           ]
         }
       ]

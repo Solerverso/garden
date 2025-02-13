@@ -1,3 +1,7 @@
+---
+sidebar: true
+---
+
 # Sobre
 
 ### Bio

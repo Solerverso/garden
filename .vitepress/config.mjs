@@ -17,7 +17,7 @@ const vitePressSidebarOptions = {
   documentRootPath: '/',
   collapsed: false,
   capitalizeFirst: true
-};
+},
 
 // https://vitepress.dev/reference/site-config
 

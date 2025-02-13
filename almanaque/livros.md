@@ -37,5 +37,12 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 - As Cruzadas Vistas pelos Árabes (Amin Maalouf)
 - Hadji Murad (Liev Tolstói)
 
-![Aladim](/img/livros/Aladim.jpg)
+| Tables        |      Are      |  Cool |
+| ------------- | :-----------: | ----: |
+| ![Aladim](/img/livros/Aladim.jpg)    | ![Cérebro](/img/livros/Cérebro.jpg) | $1600 |
+| col 2 is      |   centered    |   $12 |
+| zebra stripes |   are neat    |    $1 |
+
+
+
 

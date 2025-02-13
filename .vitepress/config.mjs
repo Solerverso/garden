@@ -43,24 +43,13 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar: generateSidebar([
-      {
+    sidebar: generateSidebar({
        documentRootPath: '/base',
         collapsed: true,
         collapseDepth: 2,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-    },
-    {
-       documentRootPath: '/base',
-        collapsed: true,
-        collapseDepth: 2,
-        capitalizeFirst: true,
-        sortFolderTo: 'bottom',
-    }]
-                            
-                            
-                            ),
+    }),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

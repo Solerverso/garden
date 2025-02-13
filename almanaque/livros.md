@@ -40,4 +40,14 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 
 
-<script setup> import { VPTeamMembers } from 'vitepress/theme' const members = [ { avatar: 'https://www.github.com/yyx990803.png', name: 'Evan You', title: 'Creator', links: [ { icon: 'github', link: 'https://github.com/yyx990803' }, { icon: 'twitter', link: 'https://twitter.com/youyuxi' } ] }, ... ] </script> # Our Team Say hello to our awesome team. <VPTeamMembers size="small" :members="members" />
+<div class="row">  
+  <div class="column">  
+    <img src="wedding.jpg">  
+    <img src="rocks.jpg">  
+    <img src="falls2.jpg">  
+    <img src="paris.jpg">  
+    <img src="nature.jpg">  
+    <img src="mist.jpg">  
+    <img src="paris.jpg">  
+  </div>
+</div>

@@ -7,6 +7,7 @@ import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
+  lang: 'pt-BR',
   vite: { 
     optimizeDeps: { 
       exclude: [ 

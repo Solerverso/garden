@@ -38,13 +38,13 @@ ignoreDeadLinks: true,
   appearance: 'dark',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/base' },
+      { text: 'Home', link: '/' },
       { text: 'Biblioteca', link: '/biblioteca' },
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
     sidebar: generateSidebar({
-       documentRootPath: '/',
+       documentRootPath: '/base',
         collapsed: true,
         collapseDepth: 2,
         capitalizeFirst: true,

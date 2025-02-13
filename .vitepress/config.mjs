@@ -48,7 +48,6 @@ ignoreDeadLinks: true,
         {
 
           generateSidebar({
-       documentRootPath: '/',
       useFolderLinkFromSameNameSubFile: true,
         collapsed: true,
         collapseDepth: 2,

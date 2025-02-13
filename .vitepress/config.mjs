@@ -72,8 +72,6 @@ ignoreDeadLinks: true,
       // is on `config` directory.
       '/sobre/': [
         {
-          text: 'Config',
-          items: [
 generateSidebar(
       {
       scanStartPath: 'sobre',
@@ -87,7 +85,6 @@ generateSidebar(
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
     })
-          ]
         }
       ]
     },

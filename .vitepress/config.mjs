@@ -72,7 +72,8 @@ export default defineConfig(withSidebar(vitePressConfigs, [
       scanStartPath: 'sobre',
       basePath: '/sobre/',
       resolvePath: '/sobre/',
-      useTitleFromFileHeading: true
+      useTitleFromFileHeading: true,
+      rootGroupText: 'Sobre'
     },
     {
       documentRootPath: '/',

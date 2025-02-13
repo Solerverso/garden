@@ -8,7 +8,7 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 ## 2024
 <div class="gallery">
-<a href="/notas/teste"><img class="four-grid-cells" src="/img/livros/Aladim.jpg" alt="Northern Winter Sky Image" /></a>
+<a href="./notas/teste"><img class="four-grid-cells" src="/img/livros/Aladim.jpg" alt="Northern Winter Sky Image" /></a>
 <img class="four-grid-cells" src="/img/livros/cérebro.jpg" alt="Northern Winter Sky Image" />
 <img class="four-grid-cells" src="/img/livros/human-evolution.jpg" alt="Northern Winter Sky Image" />
 <img class="four-grid-cells" src="/img/livros/religioes-ph.jpg" alt="Northern Winter Sky Image" />

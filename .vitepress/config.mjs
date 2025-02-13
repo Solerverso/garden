@@ -61,7 +61,7 @@ ignoreDeadLinks: true,
         {
           text: 'Guide',
           items: [
-            { text: 'Index', link: '/guide/' },
+            { text: 'Notas', link: '/notas/' },
             { text: 'One', link: '/guide/one' },
             { text: 'Two', link: '/guide/two' }
           ]

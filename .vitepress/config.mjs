@@ -11,7 +11,7 @@ export default defineConfig({
   locales: {
     root: {
       label: 'Português',
-      lang: 'pt-BR'
+      lang: 'pt'
     },
     fr: {
       label: 'English',
@@ -22,7 +22,7 @@ export default defineConfig({
     }
   },
   
-  lang: 'pt-BR',
+  lang: 'pt',
   vite: { 
     optimizeDeps: { 
       exclude: [ 

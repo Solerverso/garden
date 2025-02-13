@@ -30,14 +30,8 @@ const vitePressSidebarConfig = [
 
 // https://vitepress.dev/reference/site-config
 
-export default defineConfig({
+const defineConfig({
 
-  withSidebar(config, [
-  getMenu('setup'),
-  getMenu('backend'),
-  getMenu('frontend'),
-  getMenu('specs'),
-]),
 
 logo: '/logo.svg',
   locales: {
@@ -102,3 +96,8 @@ const vitePressSidebarOptions = {
   collapsed: true,
   capitalizeFirst: true
 };
+
+
+export default defineConfig(
+  withSidebar(withI18n(vitePressConfig, vitePressI18nConfig), vitePressSidebarConfig)
+);

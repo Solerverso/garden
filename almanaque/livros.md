@@ -55,8 +55,8 @@ img {
 }
 
 img.four-grid-cells {
-    grid-row: span 2 / auto;
-    grid-column: span 2 / auto;
+    grid-row: span 4 / auto;
+    grid-column: span 4 / auto;
 }
 
 img.wide-image {

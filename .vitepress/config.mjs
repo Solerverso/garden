@@ -63,19 +63,7 @@ ignoreDeadLinks: true,
         collapseDepth: 1,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-    },
-
-      {
-       documentRootPath: 'notas',
-        manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
-      useFolderLinkFromSameNameSubFile: true,
-        collapsed: true,
-        collapseDepth: 1,
-        capitalizeFirst: true,
-        sortFolderTo: 'bottom',
-    }
-    
-    ),
+    }),
     
 
     socialLinks: [

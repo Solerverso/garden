@@ -7,6 +7,21 @@ import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
+
+  locales: {
+    root: {
+      label: 'Português',
+      lang: 'pt-BR'
+    },
+    fr: {
+      label: 'English',
+      lang: 'en', // optional, will be added  as `lang` attribute on `html` tag
+      link: '/fr/guide' // default /fr/ -- shows on navbar translations menu, can be external
+
+      // other locale specific properties...
+    }
+  },
+  
   lang: 'pt-BR',
   vite: { 
     optimizeDeps: { 

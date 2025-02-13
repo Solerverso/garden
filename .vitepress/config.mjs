@@ -69,6 +69,14 @@ markdown: {
 export default defineConfig(withSidebar(vitePressConfigs, [
     {
       documentRootPath: '/',
+      scanStartPath: '/',
+      basePath: '/',
+      resolvePath: '/',
+      useTitleFromFileHeading: true,
+      rootGroupText: 'Sobre'
+    },
+    {
+      documentRootPath: '/',
       scanStartPath: 'sobre',
       basePath: '/sobre/',
       resolvePath: '/sobre/',

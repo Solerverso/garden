@@ -1,38 +1,13 @@
 import { defineConfig } from 'vitepress';
-import { withSidebar } from 'vitepress-sidebar';
+import { generateSidebar } from 'vitepress-sidebar';
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 
-const commonSidebarConfig: VitePressSidebarOptions = {
-  debugPrint: true,
-  excludePattern: ['changelog.md'],
-  collapsed: false,
-  capitalizeFirst: true,
-  useTitleFromFileHeading: true,
-  useTitleFromFrontmatter: true,
-  useFolderTitleFromIndexFile: true,
-  frontmatterOrderDefaultValue: 9, // For 'CHANGELOG.md'
-  sortMenusByFrontmatterOrder: true
-};
-
-const vitePressSidebarConfig = [
-  ...supportLocales.map((lang) => {
-    return {
-      ...commonSidebarConfig,
-      documentRootPath: `/docs/${lang}`,
-      resolvePath: defaultLocale === lang ? '/' : `/${lang}/`,
-      ...(defaultLocale === lang ? {} : { basePath: `/${lang}/` })
-    };
-  })
-];
-
 
 // https://vitepress.dev/reference/site-config
 
-const defineConfig({
-
-
+export default defineConfig({
 logo: '/logo.svg',
   locales: {
     root: {
@@ -78,6 +53,15 @@ ignoreDeadLinks: true,
       { text: 'Sobre', link: '/sobre' },
       { text: 'Teste', link: '/markdown-examples' }
     ],
+
+    sidebar: generateSidebar({
+       documentRootPath: '/',
+      useFolderLinkFromSameNameSubFile: true,
+        collapsed: true,
+        collapseDepth: 1,
+        capitalizeFirst: true,
+        sortFolderTo: 'bottom',
+    }),
     
 
     socialLinks: [
@@ -96,8 +80,3 @@ const vitePressSidebarOptions = {
   collapsed: true,
   capitalizeFirst: true
 };
-
-
-export default defineConfig(
-  withSidebar(withI18n(vitePressConfig, vitePressI18nConfig), vitePressSidebarConfig)
-);

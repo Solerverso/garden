@@ -76,23 +76,4 @@ img.wide-image {
 </div>
             
 
-            
-
-            
-
-          
-
         
-
-
-<div class="gallery">
-        <figure class="gallery-item">
-            <img src="/img/livros/Aladim.jpg" alt="" class="gallery-item__image">
-        </figure>
-        <figure class="gallery-item">
-            <img src="/img/livros/cérebro.jpg" alt="" class="gallery-item__image">
-        </figure>
-</div>
-
-
-

@@ -2,7 +2,7 @@
 sidebar: true
 ---
 
-# Biblioteca
+# Livros
 
 Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 

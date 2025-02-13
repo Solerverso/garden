@@ -53,7 +53,7 @@ ignoreDeadLinks: true,
         sortFolderTo: 'bottom',
     },
     {
-      documentRootPath: '/base/',
+      documentRootPath: '/videos/',
       useFolderLinkFromSameNameSubFile: true,
       collapsed: true,
       scanStartPath: 'videos',

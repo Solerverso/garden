@@ -43,7 +43,7 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar:generateSidebar(vitePressConfigs, [
+    sidebar:generateSidebar([
     {
       documentRootPath: '/',
       scanStartPath: 'videos',

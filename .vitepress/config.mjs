@@ -67,24 +67,24 @@ markdown: {
 
 
 export default defineConfig(withSidebar(vitePressConfigs, [{
-  documentRootPath: "/docs",
-  scanStartPath: "notes",
-  resolvePath: "/notes/",
+  documentRootPath: "/",
+  scanStartPath: "notas",
+  resolvePath: "/notas/",
   useTitleFromFileHeading: true,
   useFolderLinkFromIndexFile: true,
   useFolderTitleFromIndexFile: true,
 }, {
-  documentRootPath: "/docs",
-  scanStartPath: "/en/notes",
-  resolvePath: "/en/notes/",
+  documentRootPath: "/",
+  scanStartPath: "/almanaque",
+  resolvePath: "/almanaque/",
   basePath: "/",
   useTitleFromFileHeading: true,
   useFolderLinkFromIndexFile: true,
   useFolderTitleFromIndexFile: true,
 }, {
-  documentRootPath: "/docs",
-  scanStartPath: "/jp/notes",
-  resolvePath: "/jp/notes/",
+  documentRootPath: "/",
+  scanStartPath: "/literatura",
+  resolvePath: "/literatura/",
   basePath: "/",
   useTitleFromFileHeading: true,
   useFolderLinkFromIndexFile: true,

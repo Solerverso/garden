@@ -76,7 +76,9 @@ ignoreDeadLinks: true,
           items: [
 generateSidebar(
       {
-       documentRootPath: '/',
+      scanStartPath: 'sobre',
+      basePath: '/sobe/',
+      resolvePath: '/sobre/',
         manualSortFileNameByPriority: ['sobre', 'notas', 'jornal', 'literatura'],
       useFolderLinkFromSameNameSubFile: true,
         collapseDepth: 1,

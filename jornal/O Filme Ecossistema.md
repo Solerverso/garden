@@ -1,6 +1,8 @@
 ---
 title: O Filme Ecossistema
 ---
+# O Filme Ecossistema
+	
 De certa forma, poucas mudanças substanciais ocorreram ao cinema durante os mais de cem anos de existência dessa arte. Muitas mudanças, de fato, advieram com o passar dos tempos, sendo o som e a cor muito provavelmente os mais significativos. Entretanto, a forma do filme projetando imagens sobre uma superfície plana manteve-se inalterada desde os primórdios.
 
 A tecnologia já nos propiciou avanços incríveis, como câmeras muito mais leves, drones, imagens tridimensionais e muitos novos elementos que de tempos em tempos surgem e revolucionam a forma de fazer e assistir filmes, tentando cada vez mais manter o espectador imerso na narrativa. A partir desse pensamento, não seria nenhum absurdo imaginar uma revolução completa na linguagem cinematográfica visando a maior imersão: um cinema completamente virtual e interativo.

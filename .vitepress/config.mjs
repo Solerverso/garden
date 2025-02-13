@@ -1,5 +1,5 @@
 import { defineConfig } from 'vitepress';
-import { generateSidebar } from 'vitepress-sidebar';
+import { withSidebar } from 'vitepress-sidebar';
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
@@ -8,6 +8,15 @@ import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 // https://vitepress.dev/reference/site-config
 
 export default defineConfig({
+    withSidebar(vitePressConfigs, {
+       documentRootPath: '/',
+      useFolderLinkFromSameNameSubFile: true,
+        collapsed: true,
+        collapseDepth: 1,
+        capitalizeFirst: true,
+        sortFolderTo: 'bottom',
+    }),
+  
 logo: '/logo.svg',
   locales: {
     root: {
@@ -53,15 +62,6 @@ ignoreDeadLinks: true,
       { text: 'Sobre', link: '/sobre' },
       { text: 'Teste', link: '/markdown-examples' }
     ],
-
-    sidebar: generateSidebar({
-       documentRootPath: '/',
-      useFolderLinkFromSameNameSubFile: true,
-        collapsed: true,
-        collapseDepth: 1,
-        capitalizeFirst: true,
-        sortFolderTo: 'bottom',
-    }),
     
 
     socialLinks: [

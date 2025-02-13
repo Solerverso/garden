@@ -45,11 +45,22 @@ ignoreDeadLinks: true,
 
     sidebar: generateSidebar({
        documentRootPath: '/base',
+        scanStartPath: '/',
         collapsed: true,
         collapseDepth: 2,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-    }),
+    },
+    {
+       documentRootPath: '/base',
+        collapsed: true,
+        collapseDepth: 2,
+        capitalizeFirst: true,
+        sortFolderTo: 'bottom',
+    }
+                            
+                            
+                            ),
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }

@@ -23,7 +23,7 @@ export default defineConfig({
       ], 
     }, 
   }, 
-  base: '/base/',
+  base: '/',
   title: "Solerverso",
   description: "Hello",
 ignoreDeadLinks: true,

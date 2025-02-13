@@ -8,13 +8,15 @@ Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 ## 2024
 <div class="gallery">
-<a href="./notas/teste"><img class="four-grid-cells" src="/img/livros/Aladim.jpg" alt="Northern Winter Sky Image" /></a>
-<img class="four-grid-cells" src="/img/livros/cérebro.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/human-evolution.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/religioes-ph.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/human-evolution-bw.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/macaco-nu.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/sagrado-profano.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/futebol-explica.jpg"/>
+<img class="four-grid-cells" src="/img/livros/Aladim.jpg"/>
+<img class="four-grid-cells" src="/img/livros/cérebro.jpg"/>
+<img class="four-grid-cells" src="/img/livros/human-evolution.jpg"/>
+<img class="four-grid-cells" src="/img/livros/religioes-ph.jpg"/>
+<img class="four-grid-cells" src="/img/livros/human-evolution-bw.jpg"/>
+<img class="four-grid-cells" src="/img/livros/macaco-nu.jpg"/>
+<img class="four-grid-cells" src="/img/livros/sagrado-profano.jpg"/>
+    
 </div>
 
 

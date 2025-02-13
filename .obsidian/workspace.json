@@ -11,10 +11,14 @@
             "id": "a45c13af41dd2e86",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "literatura/contos/cela.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "cela"
             }
           }
         ]
@@ -70,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -91,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "literatura/contos/cela.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for cela"
             }
           },
           {
@@ -109,11 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "literatura/contos/cela.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from cela"
             }
           },
           {
@@ -137,12 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "literatura/contos/cela.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of cela"
             }
           }
         ]
@@ -164,8 +170,10 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
-    "literatura/contos/cela.md",
     "literatura/contos/devenire.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "literatura/contos/cela.md",
     "literatura/contos",
     "literatura",
     "sobre/sobre.md",
@@ -181,7 +189,6 @@
     "base/index.md",
     "base/biblioteca.md",
     "base",
-    "Untitled.canvas",
     "pasta sem título"
   ]
 }

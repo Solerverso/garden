@@ -7,6 +7,17 @@ sidebar: true
 Uma lista **parcialmente completa** das minhas últimas leituras até o momento.
 
 ## 2024
+<div class="gallery">
+<img class="four-grid-cells" src="/img/livros/Aladim.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/cérebro.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/human-evolution.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/religioes-ph.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/human-evolution-bw.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/macaco-nu.jpg" alt="Northern Winter Sky Image" />
+<img class="four-grid-cells" src="/img/livros/sagrado-profano.jpg" alt="Northern Winter Sky Image" />
+</div>
+
+
 - Como o futebol explica o mundo (Franklin Foer)
 - Aladim
 - Cérebro: uma biografia (David Eagleman)
@@ -65,15 +76,7 @@ img.wide-image {
 </style>
 
 
-<div class="gallery">
-<img class="four-grid-cells" src="/img/livros/Aladim.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/cérebro.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/human-evolution.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/religioes-ph.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/human-evolution-bw.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/macaco-nu.jpg" alt="Northern Winter Sky Image" />
-<img class="four-grid-cells" src="/img/livros/sagrado-profano.jpg" alt="Northern Winter Sky Image" />
-</div>
+
             
 
         

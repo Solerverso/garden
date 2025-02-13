@@ -43,13 +43,21 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar:generateSidebar({
-      useFolderLinkFromSameNameSubFile: true,
-        collapsed: true,
-        collapseDepth: 2,
-        capitalizeFirst: true,
-        sortFolderTo: 'bottom',
-    }),
+    sidebar:generateSidebar(vitePressConfigs, [
+    {
+      documentRootPath: '/',
+      scanStartPath: 'videos',
+      basePath: '/videos/',
+      resolvePath: '/videos/',
+      useTitleFromFileHeading: true
+    },
+    {
+      documentRootPath: '/',
+      scanStartPath: 'notas',
+      resolvePath: '/notas/',
+      useTitleFromFrontmatter: true
+    }
+  ]),
     
 
     socialLinks: [

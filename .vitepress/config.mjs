@@ -43,24 +43,14 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar:generateSidebar([
-    {
+    sidebar: generateSidebar({
        documentRootPath: '/',
       useFolderLinkFromSameNameSubFile: true,
         collapsed: true,
         collapseDepth: 2,
         capitalizeFirst: true,
         sortFolderTo: 'bottom',
-    },
-    {
-      documentRootPath: '/',
-      useFolderLinkFromSameNameSubFile: true,
-      collapsed: true,
-      scanStartPath: 'videos',
-      resolvePath: '/videos/',
-      useTitleFromFrontmatter: true
-    }
-  ]),
+    }),
     
 
     socialLinks: [

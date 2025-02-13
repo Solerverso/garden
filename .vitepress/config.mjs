@@ -43,9 +43,6 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar: ,
-
-
     sidebar: {
       // This sidebar gets displayed when a user
       // is on `guide` directory.

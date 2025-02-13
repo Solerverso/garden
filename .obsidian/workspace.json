@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notas/index.md.md",
+                "file": "api-examples.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index.md"
+              "title": "api-examples"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/index.md.md",
+                "file": "api-examples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index.md"
+              "title": "Backlinks for api-examples"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/index.md.md",
+                "file": "api-examples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index.md"
+              "title": "Outgoing links from api-examples"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/index.md.md",
+                "file": "api-examples.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index.md"
+              "title": "Outline of api-examples"
             }
           }
         ]
@@ -170,8 +170,8 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
-    "sobre/sobre.md",
     "notas/index.md.md",
+    "sobre/sobre.md",
     "literatura/contos/cela.md",
     "notas",
     "literatura/contos/devenire.md",

@@ -1,9 +1,22 @@
 import { defineConfig } from 'vitepress';
-import { generateSidebar } from 'vitepress-sidebar';
+import { withSidebar } from 'vitepress-sidebar';
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
+const vitePressOptions = {
+  // VitePress's options here...
+  title: 'VitePress Sidebar',
+  themeConfig: {
+    // ...
+  }
+};
 
+const vitePressSidebarOptions = {
+  // VitePress Sidebar's options here...
+  documentRootPath: '/',
+  collapsed: false,
+  capitalizeFirst: true
+};
 
 // https://vitepress.dev/reference/site-config
 
@@ -54,31 +67,7 @@ ignoreDeadLinks: true,
       { text: 'Teste', link: '/markdown-examples' }
     ],
 
-    sidebar: {
-      // This sidebar gets displayed when a user
-      // is on `guide` directory.
-      '/': [
-        {
-          text: 'Guide',
-          items: [
-            { text: 'Notas', link: '/notas/' },
-            { text: 'One', link: '/guide/one' },
-            { text: 'Two', link: '/guide/two' }
-          ]
-        }
-      ],
-
-      // This sidebar gets displayed when a user
-      // is on `config` directory.
-      '/sobre/': [
-        {
-          text: 'Sobre',
-          items: [
-            { text: 'Sobre', link: '/sobre/' },
-          ]
-        }
-      ]
-    },
+withSidebar(vitePressOptions, vitePressSidebarOptions),
     
 
     socialLinks: [

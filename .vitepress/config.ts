@@ -18,11 +18,13 @@ const vitePressConfigs = {
   lastUpdated: true,
 
     lastUpdated: {
-      text: 'Atualizaod em',
+      text: 'Atualizado em',
       formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium'
       }},
+
+returnToTopLabel: 'Voltar ao topo',
   
   locales: {
     root: {

@@ -1,6 +1,6 @@
 
 <script setup>
-import { data } from './example.data.js'
+import { data } from '../.vitepress/posts.data.js'
 </script>
 
 <pre>{{ data }}</pre>

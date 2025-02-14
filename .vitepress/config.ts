@@ -74,62 +74,6 @@ markdown: {
   
 };
 
-    transformHtml(_code, _id, { content, pageData } ) {
-        const { filePath } = pageData;
-        const dirname = path.dirname( filePath );
-        const basename = path.basename( filePath, '.md' );
-
-        if ( dirname === blogDir ) {
-            const html = formatPageContentForRSS( content, hostName );
-            if ( html ) {
-                formattedPagesForRSS[ `/${dirname}/${basename}` ] = html;
-            }
-        }
-    },
-
-    buildEnd: async ( config ) => {
-        const feed = new Feed( {
-            title: siteTitle,
-            description: siteDescription,
-            id: hostName,
-            link: hostName,
-            copyright: siteCopyright,
-            language: 'en',
-        } );
-
-        const posts = await createContentLoader( `/${blogDir}/*.md`, {
-            render: true,
-            includeSrc: true,
-            transform ( rawData ) {
-                return rawData.sort( ( a, b ) => {
-                    return +new Date( b.frontmatter.date ).getTime() - +new Date( a.frontmatter.date ).getTime()
-                } );
-            }
-        } ).load();
-
-        for ( const { url, excerpt, frontmatter, html } of posts ) {
-            const improvedHtml = formattedPagesForRSS[ url ];
-
-            feed.addItem( {
-                title: frontmatter.title,
-                id: `${hostName}${url}`,
-                link: `${hostName}${url}`,
-                description: excerpt,
-                content: improvedHtml || html,
-                author: [
-                    {
-                        name: 'Eric Gardner',
-                        email: 'gardner.ec@gmail.com',
-                        link: 'https://ericgardner.info/about'
-                    }
-                ],
-                date: frontmatter.date
-            } );
-        }
-
-        writeFileSync( path.join( config.outDir, 'feed.rss' ), feed.rss2() );
-    };
-
 
 export default defineConfig(withSidebar(vitePressConfigs, [
     {

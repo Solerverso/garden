@@ -9,8 +9,7 @@
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
   },
-
-{
+  "author": "Solerverso",
   "devDependencies": {
     "@chunge16/vitepress-blogs-theme": "^0.2.4",
     "@nolebase/markdown-it-bi-directional-links": "^2.13.2",

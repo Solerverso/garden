@@ -1,3 +1,8 @@
+---
+title: A Natureza do Real
+description: My awesome post description
+date: 2023-04-06
+---
 
 # A Natureza do Real
 

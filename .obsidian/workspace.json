@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sobre/agora.md",
+                "file": "jornal/A Natureza do Real.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "agora"
+              "title": "A Natureza do Real"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sobre/agora.md",
+                "file": "jornal/A Natureza do Real.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for agora"
+              "title": "Backlinks for A Natureza do Real"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sobre/agora.md",
+                "file": "jornal/A Natureza do Real.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from agora"
+              "title": "Outgoing links from A Natureza do Real"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sobre/agora.md",
+                "file": "jornal/A Natureza do Real.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of agora"
+              "title": "Outline of A Natureza do Real"
             }
           }
         ]
@@ -170,11 +170,11 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
+    "sobre/agora.md",
     "sobre/index.md",
     "data/posts.data.ts",
     "data",
     "sobre/sobre.md",
-    "sobre/agora.md",
     "node_modules/undici/index.d.ts",
     "node_modules/cheerio/Readme.md",
     "node_modules/cheerio/src/parsers/parse5-adapter.ts",

@@ -1,4 +1,6 @@
 
+
+## Últimas notas
 <script setup>
 import { data as posts } from '/data/posts.data'
 import formatDate from '/.vitepress/theme/utils/formatDate';

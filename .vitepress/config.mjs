@@ -3,24 +3,11 @@ import { defineConfig } from 'vitepress';
 import { withSidebar } from "vitepress-sidebar";
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
-import 'viewerjs/dist/viewer.min.css';
-import imageViewer from 'vitepress-plugin-image-viewer';
-import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue';
-import { useRoute } from 'vitepress';
+
 
 const vitePressConfigs = {
 
-  ...DefaultTheme,
-enhanceApp(ctx) {
-DefaultTheme.enhanceApp(ctx);
-// Register global component (optional)
-ctx.app.component('vImageViewer', vImageViewer);
-},
-setup() {
-const route = useRoute();
-// Enable the plugin
-imageViewer(route);
-},
+
   
 logo: '/logo.svg',
   locales: {

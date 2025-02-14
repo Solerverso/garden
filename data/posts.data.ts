@@ -1,2 +1,2 @@
 import { createContentLoader } from 'vitepress'
-export default createContentLoader('/notas/*.md', /* options */)
+export default createContentLoader('/sobre/*.md', /* options */)

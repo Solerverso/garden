@@ -5,6 +5,8 @@ import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 const vitePressConfigs = {
+
+
 logo: '/logo.svg',
   locales: {
     root: {

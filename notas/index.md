@@ -2,7 +2,7 @@
 sidebar: false
 title: Notas
 lastUpdated: "true"
-outline: "false"
+aside: "false"
 ---
 # Notas
 As notas são textos curtos e autocontidos.

@@ -1,6 +1,6 @@
 
 # Músicas preferidas
-Um compilado das minhas músicas preferidas com o respectivo interprete (que nem sempre é o original, mas sim a versão que eu mais gosto)
+Um compilado das minhas músicas preferidas com o respectivo interprete (que nem sempre é o original, mas sim a versão que eu mais gosto). Por enquanto a lista está em ordem alfabética de intérprete, mas em breve pretendo criar uma ordenação melhor e trazer mais informações.
 
 
 - Anunciação (Alceu Valença)

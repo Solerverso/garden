@@ -16,6 +16,7 @@ const sortedPosts = getSorted( posts );
 <ul>
     <li v-for="post of sortedPosts">
         <strong><a :href="post.url">{{ post.frontmatter.title }}</a></strong><br/>
+        <span>{{ formatDate( post.frontmatter.description ) }}</span>
         <span>{{ formatDate( post.frontmatter.date ) }}</span>
     </li>
 </ul>

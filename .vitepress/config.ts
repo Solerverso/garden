@@ -16,7 +16,6 @@ const hostname: string = 'https://solerverso.github.io'
 const vitePressConfigs = {
 
   lastUpdated: true,
-logo: '/logo.svg',
   locales: {
     root: {
       label: 'Português',
@@ -46,6 +45,7 @@ logo: '/logo.svg',
   description: "Hello",
 ignoreDeadLinks: true,
   themeConfig: {
+    logo: '/logo.svg',
     search: {
       provider: 'local'
     },

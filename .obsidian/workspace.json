@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "almanaque/filmes.md",
+                "file": "sobre/index.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "filmes"
+              "title": "index"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "almanaque/filmes.md",
+                "file": "sobre/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for filmes"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "almanaque/filmes.md",
+                "file": "sobre/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from filmes"
+              "title": "Outgoing links from index"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "almanaque/filmes.md",
+                "file": "sobre/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of filmes"
+              "title": "Outline of index"
             }
           }
         ]
@@ -170,8 +170,8 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
-    "jornal/index.md",
     "almanaque/filmes.md",
+    "jornal/index.md",
     "notas/index.md",
     "sobre/index.md",
     "notas/notas.md",

@@ -4,7 +4,6 @@ sidebar: false
 
 # Sobre
 
-## Bio
 Bacharel em cinema, fazedor de vídeos, escritor de escritos e nerd em tempo integral.
 
 ## Onde me encontrar

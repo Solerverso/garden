@@ -1,6 +1,3 @@
-export default {
-  async load() {
-    // fetch remote data
-    return (await fetch('...')).json()
-  }
-}
+import { createContentLoader } from 'vitepress'
+
+export default createContentLoader('notas/*.md', /* options */)

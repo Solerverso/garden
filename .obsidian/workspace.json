@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sobre/index.md",
+                "file": "notas/livros/futebol-explica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "futebol-explica"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sobre/index.md",
+                "file": "notas/livros/futebol-explica.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for futebol-explica"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sobre/index.md",
+                "file": "notas/livros/futebol-explica.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from futebol-explica"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sobre/index.md",
+                "file": "notas/livros/futebol-explica.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of futebol-explica"
             }
           }
         ]
@@ -170,16 +170,17 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
-    "notas/index.md",
+    "sobre/usos.md",
     "notas/notas.md",
+    "sobre/index.md",
+    "sobre/sobre.md",
+    "notas/index.md",
     "notas/obi-oba2.md",
     "jornal/O Filme Ecossistema.md",
     "jornal/A Natureza do Real.md",
     "sobre/agora.md",
-    "sobre/index.md",
     "data/posts.data.ts",
     "data",
-    "sobre/sobre.md",
     "node_modules/undici/index.d.ts",
     "node_modules/cheerio/Readme.md",
     "node_modules/cheerio/src/parsers/parse5-adapter.ts",
@@ -205,7 +206,6 @@
     "node_modules/undici/docs/docs/api/MockErrors.md",
     "node_modules/undici/docs/docs/api/MockAgent.md",
     "node_modules/undici/docs/docs/api/Fetch.md",
-    "node_modules/undici/docs/docs/api/EventSource.md",
     "node_modules/date-fns/docs/logo.svg",
     "node_modules/date-fns/docs/logotype.svg",
     "node_modules/lit/logo.svg",

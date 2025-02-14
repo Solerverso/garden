@@ -45,7 +45,7 @@ const vitePressConfigs = {
   description: "Hello",
 ignoreDeadLinks: true,
   themeConfig: {
-    logo: './logo.svg',
+    logo: '/.vitepress/logo.svg',
     search: {
       provider: 'local'
     },

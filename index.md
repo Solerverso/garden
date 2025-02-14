@@ -1,6 +1,6 @@
 
 <script setup>
-import { data as posts } from './posts.data.js'
+import { data as posts } from '.vitepress/posts.data.js'
 </script>
 
 <template>

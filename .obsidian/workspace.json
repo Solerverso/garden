@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "notas/index.md",
+                "file": "sobre/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notas/index.md",
+                "file": "sobre/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notas/index.md",
+                "file": "sobre/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -142,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notas/index.md",
+                "file": "sobre/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -170,8 +170,8 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
-    "notas/notas.md",
     "notas/index.md",
+    "notas/notas.md",
     "notas/obi-oba2.md",
     "jornal/O Filme Ecossistema.md",
     "jornal/A Natureza do Real.md",

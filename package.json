@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
 
 {
   "devDependencies": {
@@ -16,11 +21,6 @@
     "tailwindcss": "^4.0.6",
     "vitepress": "^1.6.3",
     "vitepress-sidebar": "^1.31.0"
-  },
-  "scripts": {
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
   },
   "dependencies": {
     "vitepress-plugin-image-viewer": "^1.1.6",

@@ -22,7 +22,7 @@ const vitePressConfigs = {
       formatOptions: {
         dateStyle: 'full',
         timeStyle: 'medium'
-      },
+      }},
   
   locales: {
     root: {

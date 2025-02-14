@@ -3,7 +3,8 @@ sidebar: false
 title: Notas
 lastUpdated: "true"
 ---
-
+# Notas
+As notas são textos curtos e autocontidos.
 
 ## Últimas notas
 <script setup>

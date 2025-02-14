@@ -3,16 +3,9 @@ import { defineConfig } from 'vitepress';
 import { withSidebar } from "vitepress-sidebar";
 import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
-import { blogPlugin } from '@vuepress/plugin-blog'
-
 
 const vitePressConfigs = {
 
-  plugins: [
-    blogPlugin({
-      // options
-    }),
-  ],
   
 logo: '/logo.svg',
   locales: {

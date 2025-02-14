@@ -1,7 +1,6 @@
 export default {
-  load() {
-    return {
-      hello: 'world'
-    }
+  async load() {
+    // fetch remote data
+    return (await fetch('...')).json()
   }
 }

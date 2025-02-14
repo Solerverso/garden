@@ -15,49 +15,6 @@ const hostname: string = 'https://solerverso.github.io'
 
 const vitePressConfigs = {
 
-  buildEnd: async (config: SiteConfig) => {
-    const feed = new Feed({
-      title: 'Paul Laros',
-      description: 'My personal blog',
-      id: hostname,
-      link: hostname,
-      language: 'en',
-      image: 'https://laros.io/images/paul-laros.jpg',
-      favicon: `${hostname}/favicon.ico`,
-      copyright:
-        'Copyright (c) 2023-present, Paul Laros'
-    }),
-
-    const posts = await createContentLoader('*.md', {
-      excerpt: true,
-      render: true
-    }).load(),
-
-    posts.sort(
-      (a, b) =>
-        +new Date(b.frontmatter.date as string) -
-        +new Date(a.frontmatter.date as string)
-    ),
-
-    for (const { url, excerpt, frontmatter, html } of posts) {
-      feed.addItem({
-        title: frontmatter.title,
-        id: `${hostname}${url}`,
-        link: `${hostname}${url}`,
-        description: excerpt,
-        content: html,
-        author: [
-          {
-            name: 'Paul Laros',
-            email: 'hey@laros.io',
-            link: 'https://laros.io/authors/paul'
-          }
-        ],
-        date: frontmatter.date
-      })
-    },
-
-writeFileSync(path.join(config.outDir, 'feed.rss'), feed.rss2()),
   
 logo: '/logo.svg',
   locales: {
@@ -149,6 +106,57 @@ export default defineConfig(withSidebar(vitePressConfigs, [
       resolvePath: '/almanaque/',
       useTitleFromFrontmatter: true
     }
-  ]))
+  ])),
+
+({
+  buildEnd: async (config: SiteConfig) => {
+    const feed = new Feed({
+      title: 'Paul Laros',
+      description: 'My personal blog',
+      id: hostname,
+      link: hostname,
+      language: 'en',
+      image: 'https://laros.io/images/paul-laros.jpg',
+      favicon: `${hostname}/favicon.ico`,
+      copyright:
+        'Copyright (c) 2023-present, Paul Laros'
+    })
+
+    // You might need to adjust this if your Markdown files 
+    // are located in a subfolder
+    const posts = await createContentLoader('*.md', {
+      excerpt: true,
+      render: true
+    }).load()
+  
+    posts.sort(
+      (a, b) =>
+        +new Date(b.frontmatter.date as string) -
+        +new Date(a.frontmatter.date as string)
+    )
+  
+    for (const { url, excerpt, frontmatter, html } of posts) {
+      feed.addItem({
+        title: frontmatter.title,
+        id: `${hostname}${url}`,
+        link: `${hostname}${url}`,
+        description: excerpt,
+        content: html,
+        author: [
+          {
+            name: 'Paul Laros',
+            email: 'hey@laros.io',
+            link: 'https://laros.io/authors/paul'
+          }
+        ],
+        date: frontmatter.date
+      })
+    }
+  
+    writeFileSync(path.join(config.outDir, 'feed.rss'), feed.rss2())
+  }
+})
+
+
 
 

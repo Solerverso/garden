@@ -16,6 +16,16 @@ const hostname: string = 'https://solerverso.github.io'
 const vitePressConfigs = {
 
   lastUpdated: true,
+
+    lastUpdated: {
+      text: 'Atualizado em',
+      formatOptions: {
+        dateStyle: 'full',
+        timeStyle: 'medium'
+      }},
+
+returnToTopLabel: 'Voltar ao topo',
+  
   locales: {
     root: {
       label: 'Português',

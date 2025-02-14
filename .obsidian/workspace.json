@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sobre/index.md",
+                "file": "sobre/agora.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "agora"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "sobre/index.md",
+                "file": "sobre/agora.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for agora"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "sobre/index.md",
+                "file": "sobre/agora.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from agora"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "sobre/index.md",
+                "file": "sobre/agora.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of agora"
             }
           }
         ]
@@ -170,6 +170,11 @@
   },
   "active": "a45c13af41dd2e86",
   "lastOpenFiles": [
+    "sobre/index.md",
+    "data/posts.data.ts",
+    "data",
+    "sobre/sobre.md",
+    "sobre/agora.md",
     "node_modules/undici/index.d.ts",
     "node_modules/cheerio/Readme.md",
     "node_modules/cheerio/src/parsers/parse5-adapter.ts",
@@ -179,9 +184,6 @@
     "node_modules/cheerio/src/api/manipulation.spec.ts",
     "node_modules/cheerio/src/api/forms.ts",
     "node_modules/cheerio/src/api/forms.spec.ts",
-    "node_modules/cheerio/src/api/extract.ts",
-    "node_modules/cheerio/src/api/attributes.spec.ts",
-    "node_modules/cheerio/src/api/extract.spec.ts",
     "node_modules/undici/README.md",
     "node_modules/undici/types/README.md",
     "node_modules/undici/docs/docs/api/api-lifecycle.md",
@@ -203,9 +205,6 @@
     "node_modules/undici/docs/docs/api/EnvHttpProxyAgent.md",
     "node_modules/undici/docs/docs/api/DispatchInterceptor.md",
     "node_modules/undici/docs/docs/api/Dispatcher.md",
-    "node_modules/undici/docs/docs/api/DiagnosticsChannel.md",
-    "node_modules/undici/docs/docs/api/Debug.md",
-    "node_modules/undici/docs/docs/api/Cookies.md",
     "node_modules/date-fns/docs/logo.svg",
     "node_modules/date-fns/docs/logotype.svg",
     "node_modules/lit/logo.svg",

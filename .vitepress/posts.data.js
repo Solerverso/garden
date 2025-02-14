@@ -1,3 +1,7 @@
-import { createContentLoader } from 'vitepress'
-
-export default createContentLoader('notas/*.md', /* options */)
+export default {
+  load() {
+    return {
+      hello: 'world'
+    }
+  }
+}

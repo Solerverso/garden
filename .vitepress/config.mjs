@@ -5,6 +5,11 @@ import { BiDirectionalLinks } from '@nolebase/markdown-it-bi-directional-links';
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'
 
 const vitePressConfigs = {
+
+  async buildEnd() {
+    const posts = await createContentLoader('notas/*.md').load()
+    // generate files based on posts metadata, e.g. RSS feed
+  },
 logo: '/logo.svg',
   locales: {
     root: {

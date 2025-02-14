@@ -106,7 +106,7 @@ export default defineConfig(withSidebar(vitePressConfigs, [
       resolvePath: '/almanaque/',
       useTitleFromFrontmatter: true
     }
-  ])),
+  ]));
 
 ({
   buildEnd: async (config: SiteConfig) => {
